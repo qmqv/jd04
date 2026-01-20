@@ -46,6 +46,116 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇺🇸 US美国(TG:@tccjd)
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇬🇧 GB英国(TG:@tccjd)
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 10(TG:@tccjd)
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sy4.620720.xyz
+  - name: 美国
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47081
+    uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国_1
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国_2
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: c2d09562-c614-4a45-921a-3c35ec4ff786
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国_3
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: b81094ad-191c-4cad-9618-13434aa9bfbc
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国_4
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: c6d8504f-c1d6-47d5-aa06-c50c3921728b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国_5
+    type: vmess
+    server: tunnel2.qqa678.com
+    port: 47081
+    uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇭🇰 香港 | HKG
+    type: ss
+    server: 103.236.62.154
+    port: 33001
+    cipher: 2022-blake3-aes-256-gcm
+    password: 0q54tcFeEmTCuser8HZXuXh7XOrJq54dKwlcbvdufec=:AMIh7lzyCzRr9v2GYmZoGQbtghH8gppMJaFXzKDZrpE=
+  - name: 欧盟 V2CROSS.COM
+    type: ss
+    server: 45.12.136.170
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: l668XHPejoSNNuD66BYzyehaCpZexiF7
+  - name: 🇩🇪 德国 V2CROSS.COM
+    type: ss
+    server: 213.202.208.199
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: 美國
+    type: ss
+    server: 167.160.90.51
+    port: 11475
+    cipher: aes-128-gcm
+    password: 523z2fgrd7jx0z5xv6o5
   - name: 🇸🇬 新加坡 | SGP
     type: vless
     server: vip1.kaixincloud.top
@@ -72,14 +182,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: sni.meibidi.pp.ua
-  - name: 🇭🇰 香港 | HKG
-    type: trojan
-    server: 58.152.18.124
-    port: 443
-    password: 4843e94d205f3893f588255a591abe94
-    sni: www.nintendogames.net
-    skip-cert-verify: true
-    tls: true
   - name: 🇸🇬 新加坡 | SGP_2
     type: vless
     server: vip2.kaixincloud.top
@@ -181,14 +283,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kb.as129394.me
-  - name: 🇭🇰 香港 | HKG_1
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: e18959dd-114c-4418-bb80-18b0e7212314
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
   - name: 🇺🇸 美国 | USA
     type: vless
     server: 154.17.227.191
@@ -236,52 +330,6 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-  - name: 🇺🇸 美国 | USA_4
-    type: hysteria2
-    server: los.zuomomo.top
-    port: 16666
-    password: 4dd859b3-c9f6-477e-95f5-283abb3129e5
-    skip-cert-verify: false
-  - name: 🇭🇰 香港 | HKG_2
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 01c7c307-2ae3-4c9e-bfa2-d64b8a2f5e44
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_3
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_4
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 57d69288-b782-4798-81d6-64b13777549a
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_5
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_6
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
   - name: 🇩🇪 德国 | DEU
     type: vless
     server: 159.195.26.28
@@ -294,12 +342,6 @@ proxies:
     reality-opts:
       public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
   - name: 🇳🇱 荷兰 | NLD
-    type: hysteria2
-    server: helan.zuomomo.top
-    port: 16666
-    password: 4dd859b3-c9f6-477e-95f5-283abb3129e5
-    skip-cert-verify: false
-  - name: 🇳🇱 荷兰 | NLD_1
     type: vless
     server: nl11.odavpn.online
     port: 56824
@@ -311,46 +353,6 @@ proxies:
     reality-opts:
       public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
       short-id: aabbccdd
-  - name: 🇭🇰 香港 | HKG_7
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_8
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31101
-    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: false
-    tls: true
-  - name: 🇺🇸 美国 | USA_5
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 35502
-    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_9
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31101
-    password: 59d240c9-c72e-4ea1-9672-4a319f3c9541
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: false
-    tls: true
-  - name: 🇭🇰 香港 | HKG_10
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31103
-    password: 808b5ae2-7b94-43e7-8632-c639c3f72415
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
   - name: 🇫🇮 芬兰 | FIN
     type: vless
     server: 146.75.119.82
@@ -362,31 +364,7 @@ proxies:
       path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
       headers:
         Host: welcomtofreeboarders.com
-  - name: 🇭🇰 香港 | HKG_11
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31101
-    password: 43541094-75a3-4d59-b88f-1b8042b74b8b
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: false
-    tls: true
-  - name: 🇭🇰 香港 | HKG_12
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31103
-    password: b8a8025b-275a-4304-a789-b0881b281b81
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇹🇼 🇨🇳 台湾 | TWN
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31103
-    password: 401a44f1-eab0-432b-95e7-32709b1a1942
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇺🇸 美国 | USA_6
+  - name: 🇺🇸 美国 | USA_4
     type: vless
     server: 104.19.150.163
     port: 8443
@@ -410,68 +388,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: speed1.best-cloud.ir
-  - name: 🇭🇰 香港 | HKG_13
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 0949b660-d349-4b5b-b3ce-3349058f7be8
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_14
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: 9d23ec89-a50a-4634-b09e-37330ce09b37
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_15
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31103
-    password: 29f942d6-41b9-406e-84c5-77b9991ab58b
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇺🇸 美国 | USA_7
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 35501
-    password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇺🇸 美国 | USA_8
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 35501
-    password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇭🇰 香港 | HKG_16
-    type: ss
-    server: 103.236.62.154
-    port: 33001
-    cipher: 2022-blake3-aes-256-gcm
-    password: 0q54tcFeEmTCuser8HZXuXh7XOrJq54dKwlcbvdufec=:AMIh7lzyCzRr9v2GYmZoGQbtghH8gppMJaFXzKDZrpE=
-  - name: 🇭🇰 香港 | HKG_17
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31102
-    password: cfc58264-6650-4536-a338-e6bc27095421
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
-  - name: 🇺🇸 美国 | USA_9
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 35501
-    password: 29f942d6-41b9-406e-84c5-77b9991ab58b
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
-    tls: true
   - name: 01(TG:@tccjd)
     type: vless
     server: 162.159.44.142
@@ -485,14 +401,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: l.ayovo.netlib.re
-  - name: 🇯🇵 日本|@stairnode
-    type: trojan
-    server: 52.195.11.229
-    port: 2595
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - name: 02(TG:@tccjd)
     type: vless
     server: cloudflare.182682.xyz
@@ -517,24 +425,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: l.ayovo.netlib.re
-  - name: 🇺🇸 US美国(TG:@tccjd)
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇬🇧 GB英国(TG:@tccjd)
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 04(TG:@tccjd)
     type: vless
     server: octopusss5.info
@@ -588,12 +478,6 @@ proxies:
       path: /
       headers:
         Host: private.digikala.lat
-  - name: 欧盟 V2CROSS.COM
-    type: ss
-    server: 45.12.136.170
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: l668XHPejoSNNuD66BYzyehaCpZexiF7
   - name: 07(TG:@tccjd)_1
     type: vless
     server: ip-range.coin.name.ng
@@ -607,20 +491,6 @@ proxies:
       path: /
       headers:
         Host: hzr27.sepiol.name.NG
-  - name: 🇩🇪 德国 V2CROSS.COM
-    type: ss
-    server: 213.202.208.199
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: 🇯🇵 日本|@ripaojiedian
-    type: trojan
-    server: 52.195.11.229
-    port: 2595
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - name: 08(TG:@tccjd)
     type: vless
     server: bastion.h3.speed.cloudflare.com
@@ -632,14 +502,6 @@ proxies:
       path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
       headers:
         Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-  - name: 🇭🇰 香港3|@stairnode
-    type: trojan
-    server: 58.152.18.98
-    port: 443
-    password: 4843e94d205f3893f588255a591abe94
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-    tls: true
   - name: 09(TG:@tccjd)
     type: vless
     server: bastion.h3.speed.cloudflare.com
@@ -651,20 +513,6 @@ proxies:
       path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
       headers:
         Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-  - name: 10(TG:@tccjd)
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sy4.620720.xyz
   - name: 01(TG:@tccjd)_1
     type: vless
     server: 51.250.38.137
@@ -700,18 +548,6 @@ proxies:
       path: /
       headers:
         Host: 18XaCgNj9C.bAsErTy.InFo
-  - name: 04(TG:@tccjd)_1
-    type: trojan
-    server: www.calmlunch.com
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
   - name: 01(TG:@tccjd)_2
     type: vless
     server: www.wto.org
@@ -745,7 +581,7 @@ proxies:
     reality-opts:
       public-key: fW43MXDdfHEKYdq8-YWvTsl4-h-2BFE69W1ZGuLg6lI
       short-id: 86473f2d52494ed4
-  - name: 04(TG:@tccjd)_2
+  - name: 04(TG:@tccjd)_1
     type: vless
     server: 104.21.96.1
     port: 2096
@@ -795,102 +631,6 @@ proxies:
       path: /
       headers:
         Host: hzr27.sepiol.name.NG
-  - name: 08(TG:@tccjd)_1
-    type: vless
-    server: 181.214.99.116
-    port: 443
-    uuid: 7c63f43f-f526-49bb-b5c8-2be26e11ef00
-    network: http
-    servername: statue.lnmarketplace.net
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path: /statue
-      headers:
-        Host: statue.lnmarketplace.net
-  - name: 09(TG:@tccjd)_1
-    type: vless
-    server: 199.232.24.2
-    port: 80
-    uuid: Parsashonam-338
-    network: http
-    tls: false
-    http-opts:
-      path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      headers:
-        Host: Free-V2ray-Bot-Parsashonam3.global.ssl.fastly.net
-  - name: 10(TG:@tccjd)_1
-    type: vless
-    server: 167.82.93.227
-    port: 80
-    uuid: Parsashonam-338
-    network: http
-    tls: false
-    http-opts:
-      path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      headers:
-        Host: Free-V2ray-Bot-Parsashonam4.global.ssl.fastly.net
-  - name: 11(TG:@tccjd)
-    type: vless
-    server: 23.235.33.81
-    port: 80
-    uuid: Parsashonam-338
-    network: http
-    tls: false
-    http-opts:
-      path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      headers:
-        Host: Free-V2ray-Bot-Parsashonam3.global.ssl.fastly.net
-  - name: 01(TG:@tccjd)_3
-    type: vless
-    server: 25.26.27.158
-    port: 2095
-    uuid: f39c206d-8acc-4304-95cc-afe234a2f6f8
-    network: http
-    tls: false
-    http-opts:
-      path: /
-      headers:
-        Host: www.zie3ep.SITE.
-  - name: 香港（2026.1.20更新）
-    type: trojan
-    server: 58.152.18.124
-    port: 443
-    password: 4843e94d205f3893f588255a591abe94
-    sni: 58.152.18.124
-    skip-cert-verify: true
-    tls: true
-  - name: 香港
-    type: trojan
-    server: 58.152.46.246
-    port: 443
-    password: BxceQaOe
-    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 171 "
-    skip-cert-verify: true
-    tls: true
-  - name: 香港_1
-    type: trojan
-    server: 58.152.46.246
-    port: 443
-    password: BxceQaOe
-    skip-cert-verify: true
-    tls: true
-  - name: 香港_2
-    type: trojan
-    server: 58.152.46.246
-    port: 443
-    password: BxceQaOe
-    sni: "🔒 [By EbraSha] trojan-HK "
-    skip-cert-verify: true
-    tls: true
-  - name: 香港_3
-    type: trojan
-    server: 58.152.46.246
-    port: 443
-    password: BxceQaOe
-    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 542 "
-    skip-cert-verify: true
-    tls: true
   - name: 韓國
     type: vless
     server: 222.102.51.111
@@ -903,39 +643,6 @@ proxies:
     reality-opts:
       public-key: PPZbDAYSwCYnPCF8BxguTFfAAZTnLnzpsHePCkGZYxo
       short-id: "34"
-  - name: 美国
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 47081
-    uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美國
-    type: ss
-    server: 167.160.90.51
-    port: 11475
-    cipher: aes-128-gcm
-    password: 523z2fgrd7jx0z5xv6o5
-  - name: 美国_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国_2
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49303
-    uuid: c2d09562-c614-4a45-921a-3c35ec4ff786
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 美國_1
     type: vless
     server: octopusss5.info
@@ -950,7 +657,7 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 01(TG:@tccjd)_4
+  - name: 01(TG:@tccjd)_3
     type: vless
     server: octopusss5.info
     port: 22955
@@ -992,15 +699,6 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 美国_3
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49303
-    uuid: b81094ad-191c-4cad-9618-13434aa9bfbc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 03(TG:@tccjd)_3
     type: vless
     server: octopusss5.info
@@ -1015,7 +713,7 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 04(TG:@tccjd)_3
+  - name: 04(TG:@tccjd)_2
     type: vless
     server: dfg.octopusss.net
     port: 22955
@@ -1043,14 +741,6 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 香港_4
-    type: trojan
-    server: 58.152.18.124
-    port: 443
-    password: 4843e94d205f3893f588255a591abe94
-    sni: www.nintendogames.net
-    skip-cert-verify: true
-    tls: true
   - name: 德國_1
     type: vless
     server: 37.120.164.120
@@ -1093,15 +783,6 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 美国_4
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49303
-    uuid: c6d8504f-c1d6-47d5-aa06-c50c3921728b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 德國_2
     type: vless
     server: 37.120.164.43
@@ -1360,7 +1041,7 @@ proxies:
     servername: plcdn14.suio.me
     tls: true
     client-fingerprint: chrome
-  - name: 08(TG:@tccjd)_2
+  - name: 08(TG:@tccjd)_1
     type: vless
     server: 213.176.73.206
     port: 2083
@@ -1472,7 +1153,7 @@ proxies:
     uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
     servername: plcdn1.suio.me
     tls: true
-  - name: 09(TG:@tccjd)_2
+  - name: 09(TG:@tccjd)_1
     type: vless
     server: 51.250.42.73
     port: 8443
@@ -1483,7 +1164,7 @@ proxies:
     reality-opts:
       public-key: 8j9xx2O2pywcSy1EiGsMALbyzZXLs2EEbihC-E9E7nw
       short-id: c2ec7bbfdbbad490
-  - name: 10(TG:@tccjd)_2
+  - name: 10(TG:@tccjd)_1
     type: vless
     server: 85.133.204.131
     port: 2024
@@ -1496,7 +1177,7 @@ proxies:
     uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
     servername: plcdn5.suio.me
     tls: true
-  - name: 11(TG:@tccjd)_1
+  - name: 11(TG:@tccjd)
     type: vless
     server: 144.31.0.228
     port: 443
@@ -1536,7 +1217,7 @@ proxies:
     servername: plcdn5.suio.me
     tls: true
     client-fingerprint: chrome
-  - name: 美国_5
+  - name: 美国_6
     type: vless
     server: 144.31.1.127
     port: 443
@@ -1903,15 +1584,6 @@ proxies:
       path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
       headers:
         Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-  - name: 美国_6
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47081
-    uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 16(TG:@tccjd)
     type: vless
     server: 5.101.36.152
@@ -2072,15 +1744,298 @@ proxies:
       path: /vless/?JoinBede--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY?ed=2560
       headers:
         Host: 3h-kAzakhStan1.09vPn.cOm.
+  - name: 🇭🇰 香港 | HKG_1
+    type: trojan
+    server: 58.152.18.124
+    port: 443
+    password: 4843e94d205f3893f588255a591abe94
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_2
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: e18959dd-114c-4418-bb80-18b0e7212314
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_3
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 01c7c307-2ae3-4c9e-bfa2-d64b8a2f5e44
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_4
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_5
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 57d69288-b782-4798-81d6-64b13777549a
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_6
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_7
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_8
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: efe9d5fc-823d-43d5-baef-9bc1fb0e651d
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_9
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31101
+    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    tls: true
+  - name: 🇺🇸 美国 | USA_5
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 35502
+    password: 9ab8fa39-7e45-43b1-8572-378fc62fe801
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_10
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31101
+    password: 59d240c9-c72e-4ea1-9672-4a319f3c9541
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    tls: true
+  - name: 🇭🇰 香港 | HKG_11
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31103
+    password: 808b5ae2-7b94-43e7-8632-c639c3f72415
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_12
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31101
+    password: 43541094-75a3-4d59-b88f-1b8042b74b8b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    tls: true
+  - name: 🇭🇰 香港 | HKG_13
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31103
+    password: b8a8025b-275a-4304-a789-b0881b281b81
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇹🇼 🇨🇳 台湾 | TWN
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31103
+    password: 401a44f1-eab0-432b-95e7-32709b1a1942
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_14
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 0949b660-d349-4b5b-b3ce-3349058f7be8
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_15
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 9d23ec89-a50a-4634-b09e-37330ce09b37
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_16
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31103
+    password: 29f942d6-41b9-406e-84c5-77b9991ab58b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇺🇸 美国 | USA_6
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 35501
+    password: 27c8cb66-d0c0-4a87-8ef6-177e12f70c80
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇺🇸 美国 | USA_7
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 35501
+    password: b3c721c4-3c1d-4a87-bdce-9d11f8c57b96
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港 | HKG_17
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: cfc58264-6650-4536-a338-e6bc27095421
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇺🇸 美国 | USA_8
+    type: trojan
+    server: green2.cdntencentmusic.com
+    port: 35501
+    password: 29f942d6-41b9-406e-84c5-77b9991ab58b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    tls: true
+  - name: 🇯🇵 日本|@stairnode
+    type: trojan
+    server: 52.195.11.229
+    port: 2595
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - name: 🇯🇵 日本|@ripaojiedian
+    type: trojan
+    server: 52.195.11.229
+    port: 2595
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - name: 🇭🇰 香港3|@stairnode
+    type: trojan
+    server: 58.152.18.98
+    port: 443
+    password: 4843e94d205f3893f588255a591abe94
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
+  - name: 04(TG:@tccjd)_3
+    type: trojan
+    server: www.calmlunch.com
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+  - name: 香港（2026.1.20更新）
+    type: trojan
+    server: 58.152.18.124
+    port: 443
+    password: 4843e94d205f3893f588255a591abe94
+    sni: 58.152.18.124
+    skip-cert-verify: true
+    tls: true
+  - name: 香港
+    type: trojan
+    server: 58.152.46.246
+    port: 443
+    password: BxceQaOe
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 171 "
+    skip-cert-verify: true
+    tls: true
+  - name: 香港_1
+    type: trojan
+    server: 58.152.46.246
+    port: 443
+    password: BxceQaOe
+    skip-cert-verify: true
+    tls: true
+  - name: 香港_2
+    type: trojan
+    server: 58.152.46.246
+    port: 443
+    password: BxceQaOe
+    sni: "������ [By EbraSha] trojan-HK "
+    skip-cert-verify: true
+    tls: true
+  - name: 香港_3
+    type: trojan
+    server: 58.152.46.246
+    port: 443
+    password: BxceQaOe
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 542 "
+    skip-cert-verify: true
+    tls: true
+  - name: 香港_4
+    type: trojan
+    server: 58.152.18.124
+    port: 443
+    password: 4843e94d205f3893f588255a591abe94
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+  - name: 🇺🇸 美国 | USA_9
+    type: hysteria2
+    server: los.zuomomo.top
+    port: 16666
+    password: 4dd859b3-c9f6-477e-95f5-283abb3129e5
+    skip-cert-verify: false
+  - name: 🇳🇱 荷兰 | NLD_1
+    type: hysteria2
+    server: helan.zuomomo.top
+    port: 16666
+    password: 4dd859b3-c9f6-477e-95f5-283abb3129e5
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -2089,96 +2044,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -2200,7 +2105,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -2211,14 +2116,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -2250,7 +2155,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -2265,12 +2169,58 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -2279,96 +2229,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -2390,7 +2290,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -2401,14 +2301,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -2440,7 +2340,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -2455,6 +2354,40 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2464,9 +2397,21 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -2475,96 +2420,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -2586,7 +2481,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -2597,14 +2492,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -2636,7 +2531,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -2651,14 +2545,60 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -2667,96 +2607,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -2778,7 +2668,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -2789,14 +2679,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -2828,7 +2718,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -2843,14 +2732,60 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -2859,96 +2794,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -2970,7 +2855,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -2981,14 +2866,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -3020,7 +2905,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -3035,14 +2919,60 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -3051,96 +2981,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -3162,7 +3042,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -3173,14 +3053,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -3212,7 +3092,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -3227,6 +3106,40 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3249,9 +3162,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 US美国(TG:@tccjd)
+      - 🇬🇧 GB英国(TG:@tccjd)
+      - 10(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 🇭🇰 香港 | HKG
+      - 欧盟 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
+      - 美國
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP_1
-      - 🇭🇰 香港 | HKG
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
       - 🇸🇬 新加坡 | SGP_4
@@ -3260,96 +3185,46 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_7
       - 🇸🇬 新加坡 | SGP_8
       - 🇸🇬 新加坡 | SGP_9
-      - 🇭🇰 香港 | HKG_1
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA_1
       - 🇺🇸 美国 | USA_2
       - 🇺🇸 美国 | USA_3
-      - 🇺🇸 美国 | USA_4
-      - 🇭🇰 香港 | HKG_2
-      - 🇭🇰 香港 | HKG_3
-      - 🇭🇰 香港 | HKG_4
-      - 🇭🇰 香港 | HKG_5
-      - 🇭🇰 香港 | HKG_6
       - 🇩🇪 德国 | DEU
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD_1
-      - 🇭🇰 香港 | HKG_7
-      - 🇭🇰 香港 | HKG_8
-      - 🇺🇸 美国 | USA_5
-      - 🇭🇰 香港 | HKG_9
-      - 🇭🇰 香港 | HKG_10
       - 🇫🇮 芬兰 | FIN
-      - 🇭🇰 香港 | HKG_11
-      - 🇭🇰 香港 | HKG_12
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_4
       - 🇩🇪 德国 | DEU_1
-      - 🇭🇰 香港 | HKG_13
-      - 🇭🇰 香港 | HKG_14
-      - 🇭🇰 香港 | HKG_15
-      - 🇺🇸 美国 | USA_7
-      - 🇺🇸 美国 | USA_8
-      - 🇭🇰 香港 | HKG_16
-      - 🇭🇰 香港 | HKG_17
-      - 🇺🇸 美国 | USA_9
       - 01(TG:@tccjd)
-      - 🇯🇵 日本|@stairnode
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 🇺🇸 US美国(TG:@tccjd)
-      - 🇬🇧 GB英国(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
       - 07(TG:@tccjd)
-      - 欧盟 V2CROSS.COM
       - 07(TG:@tccjd)_1
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇯🇵 日本|@ripaojiedian
       - 08(TG:@tccjd)
-      - 🇭🇰 香港3|@stairnode
       - 09(TG:@tccjd)
-      - 10(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_2
       - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 11(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 香港（2026.1.20更新）
-      - 香港
-      - 香港_1
-      - 香港_2
-      - 香港_3
       - 韓國
-      - 美国
-      - 美國
-      - 美国_1
-      - 美国_2
       - 美國_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 奧地利
       - 02(TG:@tccjd)_3
-      - 美国_3
       - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 德國
-      - 香港_4
       - 德國_1
       - 新加坡
       - 05(TG:@tccjd)_2
-      - 美国_4
       - 德國_2
       - 06(TG:@tccjd)_2
       - 德國_3
@@ -3371,7 +3246,7 @@ proxy-groups:
       - 美國_5
       - 土耳其
       - 波蘭
-      - 08(TG:@tccjd)_2
+      - 08(TG:@tccjd)_1
       - 德國_8
       - 拉脫維亞_1
       - 美國_6
@@ -3382,14 +3257,14 @@ proxy-groups:
       - 波蘭_2
       - 芬蘭_2
       - 波蘭_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
       - 美國_8
-      - 11(TG:@tccjd)_1
+      - 11(TG:@tccjd)
       - 芬蘭_3
       - 芬蘭_4
       - 波蘭_4
-      - 美国_5
+      - 美国_6
       - 芬蘭_5
       - 芬蘭_6
       - 俄羅斯_2
@@ -3421,7 +3296,6 @@ proxy-groups:
       - 德國_13
       - 荷蘭_1
       - 美國_14
-      - 美国_6
       - 16(TG:@tccjd)
       - 荷蘭_2
       - 俄羅斯_7
@@ -3436,6 +3310,40 @@ proxy-groups:
       - 美国_7
       - 美國_16
       - 美國_17
+      - 🇭🇰 香港 | HKG_1
+      - 🇭🇰 香港 | HKG_2
+      - 🇭🇰 香港 | HKG_3
+      - 🇭🇰 香港 | HKG_4
+      - 🇭🇰 香港 | HKG_5
+      - 🇭🇰 香港 | HKG_6
+      - 🇭🇰 香港 | HKG_7
+      - 🇭🇰 香港 | HKG_8
+      - 🇭🇰 香港 | HKG_9
+      - 🇺🇸 美国 | USA_5
+      - 🇭🇰 香港 | HKG_10
+      - 🇭🇰 香港 | HKG_11
+      - 🇭🇰 香港 | HKG_12
+      - 🇭🇰 香港 | HKG_13
+      - 🇹🇼 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港 | HKG_14
+      - 🇭🇰 香港 | HKG_15
+      - 🇭🇰 香港 | HKG_16
+      - 🇺🇸 美国 | USA_6
+      - 🇺🇸 美国 | USA_7
+      - 🇭🇰 香港 | HKG_17
+      - 🇺🇸 美国 | USA_8
+      - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 香港3|@stairnode
+      - 04(TG:@tccjd)_3
+      - 香港（2026.1.20更新）
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 🇺🇸 美国 | USA_9
+      - 🇳🇱 荷兰 | NLD_1
 rule-providers:
   LocalAreaNetwork:
     type: http
