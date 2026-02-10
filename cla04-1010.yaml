@@ -46,14 +46,99 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇭🇰 香港 | HKG
-    type: trojan
-    server: 219.76.135.98
+  - name: 01(TG:@tccjd)
+    type: vmess
+    server: de2c.buzzon.shop
+    port: 80
+    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: de2c.buzzon.shop
+    network: httpupgrade
+  - name: 15(TG:@tccjd)
+    type: vmess
+    server: de2c.buzzon.shop
     port: 443
-    password: BxceQaOe
-    sni: 219.76.135.98
-    skip-cert-verify: true
+    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    alterId: 0
+    cipher: auto
     tls: true
+    skip-cert-verify: false
+    servername: de2c.buzzon.shop
+    network: httpupgrade
+  - name: 17(TG:@tccjd)
+    type: vmess
+    server: turk1.net.net
+    port: 80
+    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: TM_AZARBAYJAB1.new.99.workers.dev
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      headers:
+        Host: tr1-smart.adelping.com.
+  - name: 🇺🇸 美国 (TG:@tccjd)
+    type: vmess
+    server: turk1.net.net
+    port: 80
+    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      headers:
+        Host: tr1-smart.adelping.com.
+  - name: 02(TG:@tccjd)
+    type: vmess
+    server: de2c.buzzon.shop
+    port: 80
+    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: de2c.buzzon.shop
+    network: httpupgrade
+  - name: 03(TG:@tccjd)
+    type: vmess
+    server: de2c.buzzon.shop
+    port: 443
+    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: de2c.buzzon.shop
+    network: httpupgrade
+  - name: 24(TG:@tccjd)
+    type: vmess
+    server: nmj.wc8.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: nmj.wc8.ccwu.cc
+  - name: 🇬🇧 英国 (TG:@tccjd)
+    type: ss
+    server: admin.c2.havij.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: kaQH3hGdcP80XEDI
   - name: 🇳🇱 荷兰 | NLD
     type: vless
     server: fa.gamingserverstream.ir
@@ -80,18 +165,7 @@ proxies:
       path: /
       headers:
         Host: sh.shahab--web.com
-  - name: 01(TG:@tccjd)
-    type: vmess
-    server: de2c.buzzon.shop
-    port: 80
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: de2c.buzzon.shop
-    network: httpupgrade
-  - name: 02(TG:@tccjd)
+  - name: 02(TG:@tccjd)_1
     type: vless
     server: flowershopsalzburg.de
     port: 8443
@@ -102,35 +176,6 @@ proxies:
       path: /vlessws
       headers:
         Host: flowershopsalzburg.de
-  - name: 03(TG:@tccjd)
-    type: trojan
-    server: de2c.buzzon.shop
-    port: 443
-    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    sni: de2c.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /C7Uxy5S9pAi1VhW5NThds106
-      headers:
-        Host: de2c.buzzon.shop
-  - name: 04(TG:@tccjd)
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
   - name: 06(TG:@tccjd)
     type: vless
     server: 172.67.180.92
@@ -144,28 +189,6 @@ proxies:
       path: /--Telegram---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN?ed=2560
       headers:
         Host: web.abcallcenter.com
-  - name: 07(TG:@tccjd)
-    type: trojan
-    server: 203.198.123.162
-    port: 443
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - name: 08(TG:@tccjd)
-    type: trojan
-    server: fic.buzzon.shop
-    port: 443
-    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
-    sni: fic.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /SpB9iu4m7MqdokB1leJ
-      headers:
-        Host: fic.buzzon.shop
   - name: 09(TG:@tccjd)
     type: vless
     server: flowershopsalzburg.de
@@ -235,17 +258,6 @@ proxies:
       path: /vlessws
       headers:
         Host: earthplantshop.de
-  - name: 15(TG:@tccjd)
-    type: vmess
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: de2c.buzzon.shop
-    network: httpupgrade
   - name: 16(TG:@tccjd)
     type: vless
     server: usa69.openbypass.org
@@ -258,33 +270,6 @@ proxies:
       path: /ws-vless/
       headers:
         Host: usa69.openbypass.org
-  - name: 17(TG:@tccjd)
-    type: vmess
-    server: turk1.net.net
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: TM_AZARBAYJAB1.new.99.workers.dev
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-      headers:
-        Host: tr1-smart.adelping.com.
-  - name: 18(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
   - name: 19(TG:@tccjd)
     type: vless
     server: 94.131.123.167
@@ -318,20 +303,6 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  - name: 🇺🇸 美国 (TG:@tccjd)
-    type: vmess
-    server: turk1.net.net
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-      headers:
-        Host: tr1-smart.adelping.com.
   - name: 21(TG:@tccjd)
     type: vless
     server: de3c.buzzon.shop
@@ -357,7 +328,7 @@ proxies:
     reality-opts:
       public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
       short-id: 423bccc9c13fb509
-  - name: 24(TG:@tccjd)
+  - name: 24(TG:@tccjd)_1
     type: vless
     server: usa69.openbypass.org
     port: 443
@@ -365,46 +336,6 @@ proxies:
     servername: usa69.openbypass.org
     tls: true
     flow: xtls-rprx-vision
-  - name: 🇬🇧 英国 (TG:@tccjd)
-    type: ss
-    server: admin.c2.havij.co
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: kaQH3hGdcP80XEDI
-  - name: 26(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-  - name: 27(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.creationlong.org
-  - name: 28(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.creationlong.org
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.creationlong.org
   - name: 29(TG:@tccjd)
     type: vless
     server: 104.18.32.47
@@ -494,21 +425,6 @@ proxies:
       path: /containers/fi
       headers:
         Host: hsdjhfdfbbf120.global.ssl.fastly.net
-  - name: 37(TG:@tccjd)
-    type: vless
-    server: usc.buzzon.shop
-    port: 443
-    uuid: 2ba742a0-5c32-489b-8f05-72fd9b8e2729
-    network: httpupgrade
-    servername: usc.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /V9RZyjTD5QiH08HfuMjgU5AX
-      headers:
-        Host:
-          - usc.buzzon.shop
   - name: 38(TG:@tccjd)
     type: vless
     server: fa.gamingserverstream.ir
@@ -605,104 +521,6 @@ proxies:
       path: /ws-vless/
       headers:
         Host: usa69.openbypass.org
-  - name: 46(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /assignment
-  - name: 47(TG:@tccjd)
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /assignment
-  - name: 01(TG:@tccjd)_1
-    type: trojan
-    server: fic.buzzon.shop
-    port: 443
-    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
-    sni: fic.buzzon.shop
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /SpB9iu4m7MqdokB1leJ
-      headers:
-        Host: fic.buzzon.shop
-  - name: 02(TG:@tccjd)_1
-    type: vmess
-    server: de2c.buzzon.shop
-    port: 80
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: de2c.buzzon.shop
-    network: httpupgrade
-  - name: 03(TG:@tccjd)_1
-    type: vmess
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: de2c.buzzon.shop
-    network: httpupgrade
-  - name: 01(TG:@tccjd)_2
-    type: trojan
-    server: 205.185.115.223
-    port: 19258
-    password: iWnFtzMiac
-    sni: cloudflare.com
-    skip-cert-verify: false
-    tls: true
-  - name: 02(TG:@tccjd)_2
-    type: trojan
-    server: 205.185.115.223
-    port: 19258
-    password: iWnFtzMiac
-    sni: cloudflare.com
-    skip-cert-verify: false
-    tls: true
-  - name: 03(TG:@tccjd)_2
-    type: trojan
-    server: de2c.buzzon.shop
-    port: 443
-    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    sni: de2c.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /C7Uxy5S9pAi1VhW5NThds106
-      headers:
-        Host: de2c.buzzon.shop
-  - name: 04(TG:@tccjd)_1
-    type: trojan
-    server: de2c.buzzon.shop
-    port: 443
-    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    sni: de2c.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /C7Uxy5S9pAi1VhW5NThds106
-      headers:
-        Host: de2c.buzzon.shop
   - name: 05(TG:@tccjd)
     type: vless
     server: deu672.lackerdeu.org
@@ -720,34 +538,6 @@ proxies:
     port: 8080
     uuid: 19a1e5b1-6289-4fe6-9aad-be285510942d
     tls: false
-  - name: 07(TG:@tccjd)_1
-    type: trojan
-    server: fic.buzzon.shop
-    port: 443
-    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
-    sni: fic.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /SpB9iu4m7MqdokB1leJ
-      headers:
-        Host: fic.buzzon.shop
-  - name: 08(TG:@tccjd)_1
-    type: trojan
-    server: de2c.buzzon.shop
-    port: 443
-    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    sni: de2c.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /C7Uxy5S9pAi1VhW5NThds106
-      headers:
-        Host: de2c.buzzon.shop
   - name: 09(TG:@tccjd)_1
     type: vless
     server: 185.39.206.226
@@ -760,20 +550,6 @@ proxies:
     reality-opts:
       public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
       short-id: b8cf9578640a9edf
-  - name: 10(TG:@tccjd)_1
-    type: trojan
-    server: fic.buzzon.shop
-    port: 443
-    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
-    sni: fic.buzzon.shop
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /SpB9iu4m7MqdokB1leJ
-      headers:
-        Host: fic.buzzon.shop
   - name: 11(TG:@tccjd)_1
     type: vless
     server: 176.109.106.241
@@ -802,16 +578,6 @@ proxies:
     network: grpc
     servername: n1.n1server.org
     tls: true
-  - name: 14(TG:@tccjd)_1
-    type: trojan
-    server: www.creationlong.org
-    port: 443
-    password: humanity
-    sni: www.creationlong.org
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /assignment
   - name: 15(TG:@tccjd)_1
     type: vless
     server: 51.250.70.196
@@ -824,7 +590,7 @@ proxies:
     reality-opts:
       public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
       short-id: a1b2c3d4
-  - name: 01(TG:@tccjd)_3
+  - name: 01(TG:@tccjd)_1
     type: vless
     server: argonshop1.parsianboton.ir
     port: 8443
@@ -837,7 +603,7 @@ proxies:
       path: /
       headers:
         Host: 111.parsianboton.ir
-  - name: 02(TG:@tccjd)_3
+  - name: 02(TG:@tccjd)_2
     type: vless
     server: aurout.denditop.site
     port: 443
@@ -849,7 +615,7 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 03(TG:@tccjd)_3
+  - name: 03(TG:@tccjd)_1
     type: vless
     server: aurout.denditop.site
     port: 443
@@ -861,7 +627,7 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 04(TG:@tccjd)_2
+  - name: 04(TG:@tccjd)
     type: vless
     server: usc.buzzon.shop
     port: 443
@@ -896,22 +662,7 @@ proxies:
       path: /?ed
       headers:
         Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-  - name: 07(TG:@tccjd)_2
-    type: vless
-    server: usc.buzzon.shop
-    port: 443
-    uuid: 2ba742a0-5c32-489b-8f05-72fd9b8e2729
-    network: httpupgrade
-    servername: usc.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /V9RZyjTD5QiH08HfuMjgU5AX
-      headers:
-        Host:
-          - usc.buzzon.shop
-  - name: 08(TG:@tccjd)_2
+  - name: 08(TG:@tccjd)
     type: vless
     server: 91.186.196.64
     port: 443
@@ -923,36 +674,6 @@ proxies:
     reality-opts:
       public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
       short-id: 9c2378562188c3cb
-  - name: 09(TG:@tccjd)_2
-    type: vless
-    server: usc.buzzon.shop
-    port: 443
-    uuid: 2ba742a0-5c32-489b-8f05-72fd9b8e2729
-    network: httpupgrade
-    servername: usc.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /V9RZyjTD5QiH08HfuMjgU5AX
-      headers:
-        Host:
-          - usc.buzzon.shop
-  - name: 10(TG:@tccjd)_2
-    type: vless
-    server: usc.buzzon.shop
-    port: 443
-    uuid: 2ba742a0-5c32-489b-8f05-72fd9b8e2729
-    network: httpupgrade
-    servername: usc.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /V9RZyjTD5QiH08HfuMjgU5AX
-      headers:
-        Host:
-          - usc.buzzon.shop
   - name: 11(TG:@tccjd)_2
     type: vless
     server: 89.169.128.105
@@ -983,7 +704,7 @@ proxies:
     port: 9900
     uuid: 2fa7f6dc-1367-4b1e-bf59-865b90959ce8
     tls: false
-  - name: 14(TG:@tccjd)_2
+  - name: 14(TG:@tccjd)_1
     type: vless
     server: tun1-norbert.norbertvip-conf.site
     port: 9900
@@ -1001,7 +722,7 @@ proxies:
     port: 9900
     uuid: 2fa7f6dc-1367-4b1e-bf59-865b90959ce8
     tls: false
-  - name: 01(TG:@tccjd)_4
+  - name: 01(TG:@tccjd)_2
     type: vless
     server: 188.114.98.0
     port: 443
@@ -1014,7 +735,7 @@ proxies:
       path: /
       headers:
         Host: vpnvran.lunarmc.ir
-  - name: 02(TG:@tccjd)_4
+  - name: 02(TG:@tccjd)_3
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1025,7 +746,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 03(TG:@tccjd)_4
+  - name: 03(TG:@tccjd)_2
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1036,7 +757,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 04(TG:@tccjd)_3
+  - name: 04(TG:@tccjd)_1
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1069,7 +790,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 07(TG:@tccjd)_3
+  - name: 07(TG:@tccjd)
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1080,7 +801,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 08(TG:@tccjd)_3
+  - name: 08(TG:@tccjd)_1
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1091,7 +812,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 09(TG:@tccjd)_3
+  - name: 09(TG:@tccjd)_2
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1102,7 +823,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 10(TG:@tccjd)_3
+  - name: 10(TG:@tccjd)_1
     type: vless
     server: 151.101.9.80
     port: 80
@@ -1146,33 +867,7 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 14(TG:@tccjd)_3
-    type: vless
-    server: 77.81.81.17
-    port: 3636
-    uuid: 45e0054a-57f1-44e4-aac9-3ff0826b1735
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /@bitnetvpn
-      headers:
-        Host:
-          - bitnetvpn.com
-  - name: 16(TG:@tccjd)_1
-    type: vless
-    server: 77.81.81.17
-    port: 3636
-    uuid: 45e0054a-57f1-44e4-aac9-3ff0826b1735
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /@bitnetvpn
-      headers:
-        Host:
-          - bitnetvpn.com
-  - name: 01(TG:@tccjd)_5
+  - name: 01(TG:@tccjd)_3
     type: vless
     server: 172.66.128.70
     port: 80
@@ -1183,7 +878,7 @@ proxies:
       path: /?ed
       headers:
         Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
-  - name: 01(TG:@tccjd)_6
+  - name: 01(TG:@tccjd)_4
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1194,7 +889,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 02(TG:@tccjd)_5
+  - name: 02(TG:@tccjd)_4
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1205,7 +900,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 03(TG:@tccjd)_5
+  - name: 03(TG:@tccjd)_3
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1216,7 +911,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 04(TG:@tccjd)_4
+  - name: 04(TG:@tccjd)_2
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1238,7 +933,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 07(TG:@tccjd)_4
+  - name: 07(TG:@tccjd)_1
     type: vless
     server: 104.18.32.47
     port: 80
@@ -1249,35 +944,7 @@ proxies:
       path: /?ed
       headers:
         Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-  - name: 06(TG:@tccjd)_4
-    type: vless
-    server: chatgpt.com
-    port: 443
-    uuid: 9cf7e4ab-0da9-4213-d376-8f9d91668daf
-    network: http
-    servername: hajimamad.ladyy-collection.ir
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - hajimamad.ladyy-collection.ir
-  - name: 08(TG:@tccjd)_4
-    type: vless
-    server: chatgpt.com
-    port: 443
-    uuid: 9cf7e4ab-0da9-4213-d376-8f9d91668daf
-    network: http
-    servername: hajimamad.ladyy-collection.ir
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - hajimamad.ladyy-collection.ir
-  - name: 09(TG:@tccjd)_4
+  - name: 09(TG:@tccjd)_3
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1288,7 +955,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 10(TG:@tccjd)_4
+  - name: 10(TG:@tccjd)_2
     type: vless
     server: 94.131.123.167
     port: 443
@@ -1332,20 +999,6 @@ proxies:
       path: /?ed
       headers:
         Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-  - name: 14(TG:@tccjd)_4
-    type: vless
-    server: chatgpt.com
-    port: 443
-    uuid: 9cf7e4ab-0da9-4213-d376-8f9d91668daf
-    network: http
-    servername: hajimamad.ladyy-collection.ir
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - hajimamad.ladyy-collection.ir
   - name: 15(TG:@tccjd)_3
     type: vless
     server: 94.131.123.167
@@ -1368,7 +1021,7 @@ proxies:
     reality-opts:
       public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
       short-id: 8bcfe256cf216fd8
-  - name: 18(TG:@tccjd)_1
+  - name: 18(TG:@tccjd)
     type: vless
     server: 192.200.160.228
     port: 2083
@@ -1459,7 +1112,7 @@ proxies:
       path: /api03
       headers:
         Host: de.elterido.ir
-  - name: 26(TG:@tccjd)_1
+  - name: 26(TG:@tccjd)
     type: vless
     server: 192.200.160.228
     port: 2083
@@ -1472,7 +1125,7 @@ proxies:
       path: /api03
       headers:
         Host: de.elterido.ir
-  - name: 27(TG:@tccjd)_1
+  - name: 27(TG:@tccjd)
     type: vless
     server: 192.200.160.228
     port: 2083
@@ -1485,7 +1138,7 @@ proxies:
       path: /api03
       headers:
         Host: de.elterido.ir
-  - name: 28(TG:@tccjd)_1
+  - name: 28(TG:@tccjd)
     type: vless
     server: 192.200.160.228
     port: 2083
@@ -1498,19 +1151,6 @@ proxies:
       path: api03
       headers:
         Host: de.elterido.ir
-  - name: 32(TG:@tccjd)_1
-    type: vless
-    server: speedtest.net
-    port: 80
-    uuid: a26bbed7-a286-4840-84bc-dc102c526777
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /category/music
-      headers:
-        Host:
-          - iran.boltboost.gg
   - name: 30(TG:@tccjd)_1
     type: vless
     server: 87.239.111.227
@@ -1555,7 +1195,7 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: 37(TG:@tccjd)_1
+  - name: 37(TG:@tccjd)
     type: vless
     server: fa.gamingserverstream.ir
     port: 443
@@ -1595,7 +1235,7 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: 01(TG:@tccjd)_7
+  - name: 01(TG:@tccjd)_5
     type: vless
     server: nodejs.org
     port: 80
@@ -1606,22 +1246,7 @@ proxies:
       path: /?ed
       headers:
         Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
-  - name: 02(TG:@tccjd)_6
-    type: vless
-    server: de3c.buzzon.shop
-    port: 443
-    uuid: bddcb397-6f52-458e-9937-dfbf69db1e48
-    network: httpupgrade
-    servername: de3c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /sy5RZsmo3idYzfoIGs
-      headers:
-        Host:
-          - de3c.buzzon.shop
-  - name: 03(TG:@tccjd)_6
+  - name: 03(TG:@tccjd)_4
     type: vless
     server: de3c.buzzon.shop
     port: 443
@@ -1634,7 +1259,7 @@ proxies:
       path: /sy5RZsmo3iYVIROnda
       headers:
         Host: de3c.buzzon.shop
-  - name: 04(TG:@tccjd)_5
+  - name: 04(TG:@tccjd)_3
     type: vless
     server: 188.114.98.0
     port: 2053
@@ -1660,22 +1285,7 @@ proxies:
       path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
       headers:
         Host: azrping.melishekan.site
-  - name: 06(TG:@tccjd)_5
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
-  - name: 07(TG:@tccjd)_5
+  - name: 07(TG:@tccjd)_2
     type: vless
     server: fic.buzzon.shop
     port: 443
@@ -1688,22 +1298,7 @@ proxies:
       path: /s55dLF15ddokB1leJ
       headers:
         Host: fic.buzzon.shop
-  - name: 08(TG:@tccjd)_5
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
-  - name: 09(TG:@tccjd)_5
+  - name: 09(TG:@tccjd)_4
     type: vless
     server: 104.20.1.252
     port: 80
@@ -1714,7 +1309,7 @@ proxies:
       path: /?ed
       headers:
         Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
-  - name: 10(TG:@tccjd)_5
+  - name: 10(TG:@tccjd)_3
     type: vless
     server: 172.67.180.92
     port: 443
@@ -1740,51 +1335,6 @@ proxies:
       path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
       headers:
         Host: azrping.melishekan.site
-  - name: 12(TG:@tccjd)_5
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
-  - name: 13(TG:@tccjd)_5
-    type: vless
-    server: de3c.buzzon.shop
-    port: 443
-    uuid: bddcb397-6f52-458e-9937-dfbf69db1e48
-    network: httpupgrade
-    servername: de3c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /sy5RZsmo3idYzfoIGs
-      headers:
-        Host:
-          - de3c.buzzon.shop
-  - name: 14(TG:@tccjd)_5
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
   - name: 15(TG:@tccjd)_4
     type: vless
     server: 188.114.98.0
@@ -1798,37 +1348,7 @@ proxies:
       path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
       headers:
         Host: azrping.melishekan.site
-  - name: 16(TG:@tccjd)_2
-    type: vless
-    server: de2c.buzzon.shop
-    port: 443
-    uuid: acadd87c-c8b4-4b6b-989b-64263e4d0329
-    network: httpupgrade
-    servername: de2c.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /aRzHt7SNMv0BwNHc
-      headers:
-        Host:
-          - de2c.buzzon.shop
-  - name: 17(TG:@tccjd)_3
-    type: vless
-    server: fic.buzzon.shop
-    port: 443
-    uuid: b3a73d16-5d6e-45ad-8a73-314583408ec1
-    network: httpupgrade
-    servername: fic.buzzon.shop
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /s55dLF15dqXBIUFBWOj
-      headers:
-        Host:
-          - fic.buzzon.shop
-  - name: 18(TG:@tccjd)_2
+  - name: 18(TG:@tccjd)_1
     type: vless
     server: s32.buzzvpn.online
     port: 8443
@@ -1865,19 +1385,7 @@ proxies:
       path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
       headers:
         Host: azrping.melishekan.site
-  - name: 美國
-    type: trojan
-    server: 172.66.44.230
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tro8sFW1S91B6sZrM1?ed=2560
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-  - name: 01(TG:@tccjd)_8
+  - name: 01(TG:@tccjd)_6
     type: vless
     server: 2.59.162.100
     port: 443
@@ -1889,7 +1397,7 @@ proxies:
     reality-opts:
       public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
       short-id: ffffffffff
-  - name: 02(TG:@tccjd)_7
+  - name: 02(TG:@tccjd)_5
     type: vless
     server: 138.124.79.9
     port: 443
@@ -1901,7 +1409,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-  - name: 03(TG:@tccjd)_7
+  - name: 03(TG:@tccjd)_5
     type: vless
     server: italy2.bluehorizonjournal.site
     port: 8443
@@ -1914,7 +1422,7 @@ proxies:
       path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
       headers:
         Host: italy2.bluehorizonjournal.site
-  - name: 04(TG:@tccjd)_6
+  - name: 04(TG:@tccjd)_4
     type: vless
     server: 138.124.79.9
     port: 443
@@ -1938,7 +1446,7 @@ proxies:
     reality-opts:
       public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
       short-id: ffffffffff
-  - name: 06(TG:@tccjd)_6
+  - name: 06(TG:@tccjd)_4
     type: vless
     server: 178.17.59.73
     port: 2053
@@ -1950,7 +1458,7 @@ proxies:
     reality-opts:
       public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
       short-id: 423bccc9c13fb509
-  - name: 07(TG:@tccjd)_6
+  - name: 07(TG:@tccjd)_3
     type: vless
     server: 104.18.32.47
     port: 80
@@ -1961,17 +1469,7 @@ proxies:
       path: /?ed
       headers:
         Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
-  - name: 08(TG:@tccjd)_6
-    type: trojan
-    server: vvvbbbnhj.taipei102.indevs.in
-    port: 443
-    password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-    sni: vvvbbbnhj.taipei102.indevs.in
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /2cO5FH0xUmT9oqnbBhmKb8nOkg
-  - name: 09(TG:@tccjd)_6
+  - name: 09(TG:@tccjd)_5
     type: vless
     server: 78.153.139.68
     port: 8443
@@ -1994,7 +1492,7 @@ proxies:
       path: /?ed
       headers:
         Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-  - name: 10(TG:@tccjd)_6
+  - name: 10(TG:@tccjd)_4
     type: vless
     server: 104.18.32.47
     port: 80
@@ -2017,17 +1515,7 @@ proxies:
     reality-opts:
       public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
       short-id: 58c512b4422e2517
-  - name: 12(TG:@tccjd)_6
-    type: trojan
-    server: mkouy.99890604.xyz
-    port: 443
-    password: 5196aae7-1479-4f3c-978b-68e74977b509
-    sni: mkouy.99890604.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /mSZVb4DmOGWZIKMBivnR3
-  - name: 13(TG:@tccjd)_6
+  - name: 13(TG:@tccjd)_5
     type: vless
     server: 151.101.9.80
     port: 80
@@ -2038,18 +1526,6 @@ proxies:
       path: /
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 14(TG:@tccjd)_6
-    type: trojan
-    server: mkouy.99890604.xyz
-    port: 443
-    password: 5196aae7-1479-4f3c-978b-68e74977b509
-    sni: mkouy.99890604.xyz
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /mSZVb4DmOGWZIKMBivnR3
   - name: 15(TG:@tccjd)_5
     type: vless
     server: 151.101.9.80
@@ -2061,7 +1537,7 @@ proxies:
       path: /?ed=1049
       headers:
         Host: adspeedx23.global.ssl.fastly.net
-  - name: 16(TG:@tccjd)_3
+  - name: 16(TG:@tccjd)_1
     type: vless
     server: jjjiu.99890604.xyz
     port: 443
@@ -2074,7 +1550,7 @@ proxies:
       path: /vzwyBIUYH4vYIKMBivnR3
       headers:
         Host: jjjiu.99890604.xyz
-  - name: 17(TG:@tccjd)_4
+  - name: 17(TG:@tccjd)_3
     type: vless
     server: z1.n1server.org
     port: 443
@@ -2082,7 +1558,7 @@ proxies:
     network: grpc
     servername: n1.n1server.org
     tls: true
-  - name: 18(TG:@tccjd)_3
+  - name: 18(TG:@tccjd)_2
     type: vless
     server: 192.200.160.228
     port: 2083
@@ -2095,14 +1571,6 @@ proxies:
       path: /api03
       headers:
         Host: de.elterido.ir
-  - name: 19(TG:@tccjd)_3
-    type: trojan
-    server: 205.185.115.223
-    port: 19258
-    password: iWnFtzMiac
-    sni: cloudflare.com
-    skip-cert-verify: false
-    tls: true
   - name: 20(TG:@tccjd)_3
     type: vless
     server: z1.n1server.org
@@ -2110,14 +1578,6 @@ proxies:
     uuid: 071435dc-6ab9-4502-8441-ed4a4b609092
     network: grpc
     servername: n1.n1server.org
-    tls: true
-  - name: 美國_1
-    type: trojan
-    server: 205.185.115.223
-    port: 19258
-    password: iWnFtzMiac
-    sni: cloudflare.com
-    skip-cert-verify: false
     tls: true
   - name: 21(TG:@tccjd)_2
     type: vless
@@ -2151,57 +1611,283 @@ proxies:
     servername: n1.n1server.org
     tls: true
     client-fingerprint: chrome
-  - name: 24(TG:@tccjd)_1
-    type: vmess
-    server: nmj.wc8.ccwu.cc
-    port: 80
-    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 🇭🇰 香港 | HKG
+    type: trojan
+    server: 219.76.135.98
+    port: 443
+    password: BxceQaOe
+    sni: 219.76.135.98
+    skip-cert-verify: true
+    tls: true
+  - name: 03(TG:@tccjd)_6
+    type: trojan
+    server: de2c.buzzon.shop
+    port: 443
+    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    sni: de2c.buzzon.shop
+    alpn:
+      - http/1.1
     skip-cert-verify: false
-    network: ws
+    tls: true
     ws-opts:
-      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      path: /C7Uxy5S9pAi1VhW5NThds106
       headers:
-        Host: nmj.wc8.ccwu.cc
+        Host: de2c.buzzon.shop
+  - name: 07(TG:@tccjd)_4
+    type: trojan
+    server: 203.198.123.162
+    port: 443
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - name: 08(TG:@tccjd)_2
+    type: trojan
+    server: fic.buzzon.shop
+    port: 443
+    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
+    sni: fic.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /SpB9iu4m7MqdokB1leJ
+      headers:
+        Host: fic.buzzon.shop
+  - name: 18(TG:@tccjd)_3
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+  - name: 26(TG:@tccjd)_1
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+  - name: 27(TG:@tccjd)_1
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: 28(TG:@tccjd)_1
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: 46(TG:@tccjd)
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+  - name: 47(TG:@tccjd)
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+  - name: 01(TG:@tccjd)_7
+    type: trojan
+    server: fic.buzzon.shop
+    port: 443
+    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
+    sni: fic.buzzon.shop
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /SpB9iu4m7MqdokB1leJ
+      headers:
+        Host: fic.buzzon.shop
+  - name: 03(TG:@tccjd)_7
+    type: trojan
+    server: de2c.buzzon.shop
+    port: 443
+    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    sni: de2c.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /C7Uxy5S9pAi1VhW5NThds106
+      headers:
+        Host: de2c.buzzon.shop
+  - name: 04(TG:@tccjd)_5
+    type: trojan
+    server: de2c.buzzon.shop
+    port: 443
+    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    sni: de2c.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /C7Uxy5S9pAi1VhW5NThds106
+      headers:
+        Host: de2c.buzzon.shop
+  - name: 07(TG:@tccjd)_5
+    type: trojan
+    server: fic.buzzon.shop
+    port: 443
+    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
+    sni: fic.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /SpB9iu4m7MqdokB1leJ
+      headers:
+        Host: fic.buzzon.shop
+  - name: 08(TG:@tccjd)_3
+    type: trojan
+    server: de2c.buzzon.shop
+    port: 443
+    password: acadd87c-c8b4-4b6b-989b-64263e4d0329
+    sni: de2c.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /C7Uxy5S9pAi1VhW5NThds106
+      headers:
+        Host: de2c.buzzon.shop
+  - name: 10(TG:@tccjd)_5
+    type: trojan
+    server: fic.buzzon.shop
+    port: 443
+    password: b3a73d16-5d6e-45ad-8a73-314583408ec1
+    sni: fic.buzzon.shop
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /SpB9iu4m7MqdokB1leJ
+      headers:
+        Host: fic.buzzon.shop
+  - name: 14(TG:@tccjd)_2
+    type: trojan
+    server: www.creationlong.org
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+  - name: 美國
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+  - name: 08(TG:@tccjd)_4
+    type: trojan
+    server: vvvbbbnhj.taipei102.indevs.in
+    port: 443
+    password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+    sni: vvvbbbnhj.taipei102.indevs.in
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /2cO5FH0xUmT9oqnbBhmKb8nOkg
+  - name: 12(TG:@tccjd)_5
+    type: trojan
+    server: mkouy.99890604.xyz
+    port: 443
+    password: 5196aae7-1479-4f3c-978b-68e74977b509
+    sni: mkouy.99890604.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /mSZVb4DmOGWZIKMBivnR3
+  - name: 14(TG:@tccjd)_3
+    type: trojan
+    server: mkouy.99890604.xyz
+    port: 443
+    password: 5196aae7-1479-4f3c-978b-68e74977b509
+    sni: mkouy.99890604.xyz
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /mSZVb4DmOGWZIKMBivnR3
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -2210,7 +1896,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -2220,174 +1905,152 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -2396,7 +2059,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -2406,140 +2068,124 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2549,37 +2195,31 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -2588,7 +2228,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -2598,176 +2237,154 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -2776,7 +2393,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -2786,176 +2402,154 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -2964,7 +2558,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -2974,176 +2567,154 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -3152,7 +2723,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -3162,140 +2732,124 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3318,37 +2872,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 | HKG
-      - 🇳🇱 荷兰 | NLD
-      - 🇩🇪 德国 | DEU
       - 01(TG:@tccjd)
+      - 15(TG:@tccjd)
+      - 17(TG:@tccjd)
+      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
+      - 24(TG:@tccjd)
+      - 🇬🇧 英国 (TG:@tccjd)
+      - 🇳🇱 荷兰 | NLD
+      - 🇩🇪 德国 | DEU
+      - 02(TG:@tccjd)_1
       - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
       - 13(TG:@tccjd)
       - 14(TG:@tccjd)
-      - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 17(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
       - 22(TG:@tccjd)
-      - 🇺🇸 美国 (TG:@tccjd)
       - 21(TG:@tccjd)
       - 23(TG:@tccjd)
-      - 24(TG:@tccjd)
-      - 🇬🇧 英国 (TG:@tccjd)
-      - 26(TG:@tccjd)
-      - 27(TG:@tccjd)
-      - 28(TG:@tccjd)
+      - 24(TG:@tccjd)_1
       - 29(TG:@tccjd)
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
@@ -3357,7 +2905,6 @@ proxy-groups:
       - 34(TG:@tccjd)
       - 35(TG:@tccjd)
       - 36(TG:@tccjd)
-      - 37(TG:@tccjd)
       - 38(TG:@tccjd)
       - 39(TG:@tccjd)
       - 39(TG:@tccjd)_1
@@ -3367,140 +2914,124 @@ proxy-groups:
       - 44(TG:@tccjd)
       - 43(TG:@tccjd)
       - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)_1
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
       - 13(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 08(TG:@tccjd)_2
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
+      - 08(TG:@tccjd)
       - 11(TG:@tccjd)_2
       - 12(TG:@tccjd)_2
       - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
+      - 14(TG:@tccjd)_1
       - 15(TG:@tccjd)_2
       - 17(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)_1
+      - 09(TG:@tccjd)_2
+      - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_3
       - 12(TG:@tccjd)_3
       - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 16(TG:@tccjd)_1
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_5
-      - 04(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_3
-      - 07(TG:@tccjd)_4
-      - 06(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_4
-      - 10(TG:@tccjd)_4
+      - 07(TG:@tccjd)_1
+      - 09(TG:@tccjd)_3
+      - 10(TG:@tccjd)_2
       - 11(TG:@tccjd)_4
       - 12(TG:@tccjd)_4
       - 13(TG:@tccjd)_4
-      - 14(TG:@tccjd)_4
       - 15(TG:@tccjd)_3
       - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_1
+      - 18(TG:@tccjd)
       - 19(TG:@tccjd)_1
       - 20(TG:@tccjd)_1
       - 21(TG:@tccjd)_1
       - 22(TG:@tccjd)_1
       - 23(TG:@tccjd)_1
       - 25(TG:@tccjd)
-      - 26(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
+      - 26(TG:@tccjd)
+      - 27(TG:@tccjd)
+      - 28(TG:@tccjd)
       - 30(TG:@tccjd)_1
       - 34(TG:@tccjd)_1
       - 35(TG:@tccjd)_1
       - 36(TG:@tccjd)_1
-      - 37(TG:@tccjd)_1
+      - 37(TG:@tccjd)
       - 38(TG:@tccjd)_1
       - 39(TG:@tccjd)_2
       - 40(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
+      - 01(TG:@tccjd)_5
+      - 03(TG:@tccjd)_4
+      - 04(TG:@tccjd)_3
       - 05(TG:@tccjd)_4
-      - 06(TG:@tccjd)_5
-      - 07(TG:@tccjd)_5
-      - 08(TG:@tccjd)_5
-      - 09(TG:@tccjd)_5
-      - 10(TG:@tccjd)_5
+      - 07(TG:@tccjd)_2
+      - 09(TG:@tccjd)_4
+      - 10(TG:@tccjd)_3
       - 11(TG:@tccjd)_5
-      - 12(TG:@tccjd)_5
-      - 13(TG:@tccjd)_5
-      - 14(TG:@tccjd)_5
       - 15(TG:@tccjd)_4
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_2
+      - 18(TG:@tccjd)_1
       - 19(TG:@tccjd)_2
       - 20(TG:@tccjd)_2
-      - 美國
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_7
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_5
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_5
-      - 06(TG:@tccjd)_6
-      - 07(TG:@tccjd)_6
-      - 08(TG:@tccjd)_6
-      - 09(TG:@tccjd)_6
+      - 06(TG:@tccjd)_4
+      - 07(TG:@tccjd)_3
+      - 09(TG:@tccjd)_5
       - 德国 (TG:@tccjd)
-      - 10(TG:@tccjd)_6
+      - 10(TG:@tccjd)_4
       - 11(TG:@tccjd)_6
-      - 12(TG:@tccjd)_6
-      - 13(TG:@tccjd)_6
-      - 14(TG:@tccjd)_6
+      - 13(TG:@tccjd)_5
       - 15(TG:@tccjd)_5
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_4
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_3
+      - 18(TG:@tccjd)_2
       - 20(TG:@tccjd)_3
-      - 美國_1
       - 21(TG:@tccjd)_2
       - 22(TG:@tccjd)_2
       - 23(TG:@tccjd)_2
-      - 24(TG:@tccjd)_1
+      - 🇭🇰 香港 | HKG
+      - 03(TG:@tccjd)_6
+      - 07(TG:@tccjd)_4
+      - 08(TG:@tccjd)_2
+      - 18(TG:@tccjd)_3
+      - 26(TG:@tccjd)_1
+      - 27(TG:@tccjd)_1
+      - 28(TG:@tccjd)_1
+      - 46(TG:@tccjd)
+      - 47(TG:@tccjd)
+      - 01(TG:@tccjd)_7
+      - 03(TG:@tccjd)_7
+      - 04(TG:@tccjd)_5
+      - 07(TG:@tccjd)_5
+      - 08(TG:@tccjd)_3
+      - 10(TG:@tccjd)_5
+      - 14(TG:@tccjd)_2
+      - 美國
+      - 08(TG:@tccjd)_4
+      - 12(TG:@tccjd)_5
+      - 14(TG:@tccjd)_3
 rule-providers:
   LocalAreaNetwork:
     type: http
