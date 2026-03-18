@@ -46,18 +46,195 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇵🇭 菲律宾 | PHL
-    type: ss
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    port: 13144
-    cipher: 2022-blake3-aes-256-gcm
-    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 美国(TG:@tccjd)
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_1
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_2
+    type: vmess
+    server: 103.181.164.237
+    port: 34114
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_3
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_4
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 英国(TG:@tccjd)
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_5
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国(TG:@tccjd)_6
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 日本634
+    type: vmess
+    server: c63s4.portablesubmarines.com
+    port: 5662
+    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 日本324
+    type: vmess
+    server: c32s4.portablesubmarines.com
+    port: 5755
+    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国323
+    type: vmess
+    server: c32s3.portablesubmarines.com
+    port: 5755
+    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美国633
+    type: vmess
+    server: c63s3.portablesubmarines.com
+    port: 5662
+    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 荷兰325
+    type: vmess
+    server: c32s5.portablesubmarines.com
+    port: 5755
+    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US_8 | ⬇️ 1.2MB/s
+    type: vmess
+    server: 216.106.185.141
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 荷兰635
+    type: vmess
+    server: c63s5.portablesubmarines.com
+    port: 5662
+    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 🇯🇵 日本 | JPN
     type: ss
     server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
     port: 14623
     cipher: 2022-blake3-aes-256-gcm
     password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 🇩🇪 德国 | DEU
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13152
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 🇯🇵 日本 | JPN_1
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 14628
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 🇳🇬 尼日利亚 | NGA
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13158
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 🇸🇬 新加坡 | SGP
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12528
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  - name: 美国321
+    type: ss
+    server: c32s1.portablesubmarines.com
+    port: 5755
+    cipher: aes-256-gcm
+    password: a2Xs6phuuHphRrYy
+  - name: 美国322
+    type: ss
+    server: c32s2.portablesubmarines.com
+    port: 5755
+    cipher: aes-256-gcm
+    password: a2Xs6phuuHphRrYy
+  - name: 美国631
+    type: ss
+    server: c63s1.portablesubmarines.com
+    port: 5662
+    cipher: aes-256-gcm
+    password: wtKbazPTkRZFn5kX
+  - name: 美国632
+    type: ss
+    server: c63s2.portablesubmarines.com
+    port: 5662
+    cipher: aes-256-gcm
+    password: wtKbazPTkRZFn5kX
   - name: 🇺🇸 美国 | USA
     type: vless
     server: 162.159.44.142
@@ -70,7 +247,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 🇸🇬 新加坡 | SGP
+  - name: 🇸🇬 新加坡 | SGP_1
     type: vless
     server: 61.85.171.204
     port: 15000
@@ -83,7 +260,7 @@ proxies:
       path: /danfeng
       headers:
         Host: chinam.sylu.net
-  - name: 🇸🇬 新加坡 | SGP_1
+  - name: 🇸🇬 新加坡 | SGP_2
     type: vless
     server: 106.251.70.75
     port: 10162
@@ -96,7 +273,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.chinav.eu.cc
-  - name: 🇸🇬 新加坡 | SGP_2
+  - name: 🇸🇬 新加坡 | SGP_3
     type: vless
     server: 45.93.31.34
     port: 443
@@ -109,7 +286,7 @@ proxies:
       path: /danfeng
       headers:
         Host: chinam.sylu.net
-  - name: 🇸🇬 新加坡 | SGP_3
+  - name: 🇸🇬 新加坡 | SGP_4
     type: vless
     server: 192.0.63.124
     port: 443
@@ -122,7 +299,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.chinat.eu.cc
-  - name: 🇸🇬 新加坡 | SGP_4
+  - name: 🇸🇬 新加坡 | SGP_5
     type: vless
     server: 192.0.63.230
     port: 443
@@ -134,7 +311,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 🇸🇬 新加坡 | SGP_5
+  - name: 🇸🇬 新加坡 | SGP_6
     type: vless
     server: 192.0.63.134
     port: 443
@@ -146,7 +323,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 🇸🇬 新加坡 | SGP_6
+  - name: 🇸🇬 新加坡 | SGP_7
     type: vless
     server: 45.159.79.118
     port: 2053
@@ -159,7 +336,7 @@ proxies:
       path: /danfeng
       headers:
         Host: chinam.sylu.net
-  - name: 🇸🇬 新加坡 | SGP_7
+  - name: 🇸🇬 新加坡 | SGP_8
     type: vless
     server: 125.190.136.186
     port: 18790
@@ -172,12 +349,6 @@ proxies:
       path: /danfeng
       headers:
         Host: chinam.sylu.net
-  - name: 🇩🇪 德国 | DEU
-    type: ss
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    port: 13152
-    cipher: 2022-blake3-aes-256-gcm
-    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
   - name: 🇺🇸 美国 | USA_1
     type: vless
     server: www.visa.cn
@@ -190,20 +361,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 🇵🇱 波兰 | POL
-    type: trojan
-    server: outgoing-ladybird.rooster465.autos
-    port: 443
-    password: IL37892054
-    sni: outgoing-ladybird.rooster465.autos
-    skip-cert-verify: false
-    tls: true
-  - name: 🇯🇵 日本 | JPN_1
-    type: ss
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    port: 14628
-    cipher: 2022-blake3-aes-256-gcm
-    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
   - name: 🇯🇵 日本 | JPN_2
     type: vless
     server: 37.114.50.157
@@ -217,15 +374,7 @@ proxies:
       path: /@Marisa_kristi
       headers:
         Host: a3b0hudm3kx8.makuyo.dpdns.org
-  - name: 🇵🇱 波兰 | POL_1
-    type: trojan
-    server: just-alpaca.rooster465.autos
-    port: 443
-    password: IL37892054
-    sni: just-alpaca.rooster465.autos
-    skip-cert-verify: false
-    tls: true
-  - name: 🇸🇬 新加坡 | SGP_8
+  - name: 🇸🇬 新加坡 | SGP_9
     type: vless
     server: 185.237.185.158
     port: 443
@@ -250,18 +399,6 @@ proxies:
       path: /
       headers:
         Host: sub.mot.ip-ddns.com
-  - name: 🇳🇬 尼日利亚 | NGA
-    type: ss
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    port: 13158
-    cipher: 2022-blake3-aes-256-gcm
-    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
-  - name: 🇸🇬 新加坡 | SGP_9
-    type: ss
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    port: 12528
-    cipher: 2022-blake3-aes-256-gcm
-    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
   - name: 🇺🇸 美国 | USA_2
     type: vless
     server: 156.229.161.107
@@ -286,42 +423,6 @@ proxies:
       path: /
       headers:
         Host: sub.mot.ip-ddns.com
-  - name: 02(TG:@tccjd)
-    type: trojan
-    server: www.multiplydose.com
-    port: 443
-    password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-  - name: 01(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s1.nakosgol.com
-  - name: 02(TG:@tccjd)_1
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s1.nakosgol.com
   - name: 03(TG:@tccjd)
     type: vless
     server: 77.246.103.152
@@ -355,20 +456,7 @@ proxies:
     reality-opts:
       public-key: SziXMkSTuvedEFS4DE-WY0a4Hb87Y22VW0TgE9IPDjA
       short-id: 425ba80cd1a821a8
-  - name: 06(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s3.nakosgol.com
-  - name: 01(TG:@tccjd)_2
+  - name: 01(TG:@tccjd)_1
     type: vless
     server: 104.17.145.59
     port: 80
@@ -379,7 +467,7 @@ proxies:
       path: /
       headers:
         Host: vip.yaml7.ggff.net
-  - name: 02(TG:@tccjd)_2
+  - name: 02(TG:@tccjd)
     type: vless
     server: 104.20.63.52
     port: 80
@@ -425,7 +513,7 @@ proxies:
     reality-opts:
       public-key: DC71RjKr16drr8gqK8QhEuCVLpkbBfUfPb9Far8Jkzo
       short-id: e2bd9802e29deb
-  - name: 06(TG:@tccjd)_1
+  - name: 06(TG:@tccjd)
     type: vless
     server: 104.26.1.221
     port: 443
@@ -438,7 +526,7 @@ proxies:
       path: /db10240eb751d6ab
       headers:
         Host: dabaius2.sylu.net
-  - name: 01(TG:@tccjd)_3
+  - name: 01(TG:@tccjd)_2
     type: vless
     server: 190.93.245.94
     port: 2096
@@ -448,7 +536,7 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: 02(TG:@tccjd)_3
+  - name: 02(TG:@tccjd)_1
     type: vless
     server: 185.16.110.238
     port: 2096
@@ -460,7 +548,7 @@ proxies:
       path: /
       headers:
         Host: sni.jpmj.dev
-  - name: 01(TG:@tccjd)_4
+  - name: 01(TG:@tccjd)_3
     type: vless
     server: 192.200.160.20
     port: 443
@@ -472,7 +560,7 @@ proxies:
       path: /yaeungws
       headers:
         Host: 639073677243557970.camry-perma.info
-  - name: 美国(TG:@tccjd)
+  - name: 美国(TG:@tccjd)_7
     type: vless
     server: 83.229.121.78
     port: 8443
@@ -496,7 +584,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_1
+  - name: 美国(TG:@tccjd)_8
     type: vless
     server: 47.79.85.210
     port: 11307
@@ -508,7 +596,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_2
+  - name: 美国(TG:@tccjd)_9
     type: vless
     server: 172.64.52.81
     port: 443
@@ -520,7 +608,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 美国(TG:@tccjd)_3
+  - name: 美国(TG:@tccjd)_10
     type: vless
     server: 172.64.229.165
     port: 443
@@ -532,7 +620,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 美国(TG:@tccjd)_4
+  - name: 美国(TG:@tccjd)_11
     type: vless
     server: 43.160.248.66
     port: 8443
@@ -544,7 +632,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_5
+  - name: 美国(TG:@tccjd)_12
     type: vless
     server: 43.165.191.25
     port: 20524
@@ -556,7 +644,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_6
+  - name: 美国(TG:@tccjd)_13
     type: vless
     server: 222.117.162.245
     port: 17988
@@ -568,7 +656,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.fgfw.ndjp.net
-  - name: 美国(TG:@tccjd)_7
+  - name: 美国(TG:@tccjd)_14
     type: vless
     server: 162.159.48.142
     port: 443
@@ -604,7 +692,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_8
+  - name: 美国(TG:@tccjd)_15
     type: vless
     server: 34.143.159.175
     port: 443
@@ -616,7 +704,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_9
+  - name: 美国(TG:@tccjd)_16
     type: vless
     server: 182.31.252.120
     port: 10554
@@ -628,7 +716,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.fgfw.ndjp.net
-  - name: 美国(TG:@tccjd)_10
+  - name: 美国(TG:@tccjd)_17
     type: vless
     server: 59.3.3.161
     port: 8443
@@ -640,7 +728,7 @@ proxies:
       path: /telegram🇨🇳@wangcai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_11
+  - name: 美国(TG:@tccjd)_18
     type: vless
     server: 59.3.3.161
     port: 8443
@@ -652,7 +740,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_12
+  - name: 美国(TG:@tccjd)_19
     type: vless
     server: 59.3.3.161
     port: 8443
@@ -664,7 +752,7 @@ proxies:
       path: /Telegram
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_13
+  - name: 美国(TG:@tccjd)_20
     type: vless
     server: 192.0.54.225
     port: 443
@@ -676,7 +764,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_14
+  - name: 美国(TG:@tccjd)_21
     type: vless
     server: 104.19.58.74
     port: 443
@@ -688,7 +776,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 美国(TG:@tccjd)_15
+  - name: 美国(TG:@tccjd)_22
     type: vless
     server: 192.0.63.134
     port: 443
@@ -700,7 +788,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_16
+  - name: 美国(TG:@tccjd)_23
     type: vless
     server: 192.0.54.188
     port: 443
@@ -712,7 +800,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_17
+  - name: 美国(TG:@tccjd)_24
     type: vless
     server: 192.0.63.56
     port: 443
@@ -724,7 +812,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_18
+  - name: 美国(TG:@tccjd)_25
     type: vless
     server: 192.0.63.230
     port: 443
@@ -748,7 +836,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2
       headers:
         Host: zgtwylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_19
+  - name: 美国(TG:@tccjd)_26
     type: vless
     server: 192.0.54.131
     port: 443
@@ -760,7 +848,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_20
+  - name: 美国(TG:@tccjd)_27
     type: vless
     server: 192.0.63.56
     port: 443
@@ -772,7 +860,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_21
+  - name: 美国(TG:@tccjd)_28
     type: vless
     server: 192.0.63.134
     port: 443
@@ -784,46 +872,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.danfeng.kozow.com
-  - name: 美国(TG:@tccjd)_22
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_23
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_24
-    type: trojan
-    server: 152.53.200.167
-    port: 8444
-    password: trojan
-    sni: jflsjlaf.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: jflsjlaf.pages.dev
-  - name: 美国(TG:@tccjd)_25
-    type: vmess
-    server: 103.181.164.237
-    port: 34114
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_26
+  - name: 美国(TG:@tccjd)_29
     type: vless
     server: www.visa.cn
     port: 443
@@ -835,7 +884,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: r.icy.de5.net
-  - name: 美国(TG:@tccjd)_27
+  - name: 美国(TG:@tccjd)_30
     type: vless
     server: 47.237.71.245
     port: 15430
@@ -847,34 +896,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_28
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_29
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 英国(TG:@tccjd)
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_30
+  - name: 美国(TG:@tccjd)_31
     type: vless
     server: 38.180.9.18
     port: 8443
@@ -886,7 +908,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_31
+  - name: 美国(TG:@tccjd)_32
     type: vless
     server: 211.48.77.114
     port: 11265
@@ -910,7 +932,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_32
+  - name: 美国(TG:@tccjd)_33
     type: vless
     server: 202.84.53.85
     port: 30816
@@ -922,7 +944,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_33
+  - name: 美国(TG:@tccjd)_34
     type: vless
     server: 146.190.203.147
     port: 443
@@ -958,205 +980,78 @@ proxies:
       path: /Telegram🇨🇳@WangCai2
       headers:
         Host: ylnhh.cc.cd
-  - name: 美国(TG:@tccjd)_34
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_35
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 日本634
-    type: vmess
-    server: c63s4.portablesubmarines.com
-    port: 5662
-    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 日本324
-    type: vmess
-    server: c32s4.portablesubmarines.com
-    port: 5755
-    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇭🇰HK_8 | ⬇️ 6.1MB/s
-    type: anytls
-    server: hkaws.ccwink.photos
-    port: 60005
-    password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-    sni: hkaws.ccwink.photos
-    skip-cert-verify: true
+  - name: 🇺🇸US_6|1.6MB/s
+    type: vless
+    server: 157.254.223.44
+    port: 18959
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+    servername: itunes.apple.com
     tls: true
-    udp: false
-  - name: 🇲🇴MO_1 | ⬇️ 4.8MB/s
-    type: anytls
-    server: hkaws.ccwink.photos
-    port: 60006
-    password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-    sni: hkaws.ccwink.photos
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 美国323
-    type: vmess
-    server: c32s3.portablesubmarines.com
-    port: 5755
-    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇺🇸US_332 | ⬇️ 2.1MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    alpn:
-      - h2
-    skip-cert-verify: true
-    tls: true
-    udp: false
     client-fingerprint: chrome
-  - name: 美国321
-    type: ss
-    server: c32s1.portablesubmarines.com
-    port: 5755
-    cipher: aes-256-gcm
-    password: a2Xs6phuuHphRrYy
-  - name: 美国633
-    type: vmess
-    server: c63s3.portablesubmarines.com
-    port: 5662
-    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国322
-    type: ss
-    server: c32s2.portablesubmarines.com
-    port: 5755
-    cipher: aes-256-gcm
-    password: a2Xs6phuuHphRrYy
-  - name: 🇺🇸US_37 | ⬇️ 4.1MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    sni: 45.221.98.14
-    alpn:
-      - h2
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 🇺🇸US_5 | ⬇️ 2.8MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    alpn:
-      - h2
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 🇺🇸US_12 | ⬇️ 5.0MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    sni: 45.221.98.14
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 🇺🇸US_2 | ⬇️ 2.9MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    alpn:
-      - h2
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 🇺🇸US_2 | ⬇️ 6.2MB/s
-    type: hysteria2
-    server: 38.165.21.126
-    port: 29794
-    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
-    sni: bing.com
-    skip-cert-verify: true
-  - name: 美国631
-    type: ss
-    server: c63s1.portablesubmarines.com
-    port: 5662
-    cipher: aes-256-gcm
-    password: wtKbazPTkRZFn5kX
-  - name: 🇺🇸美国-10
-    type: anytls
-    server: 155.94.145.166
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+  - name: 🇸🇪SE_1|2.2MB/s
+    type: vless
+    server: sub.himikvpn.online
     port: 8443
-    password: tzjz55
-    skip-cert-verify: true
+    uuid: f7f18360-fbdf-45b5-93f4-4e47a29e595b
+    servername: pimg.mycdn.me
     tls: true
-    udp: false
-  - name: 美国632
-    type: ss
-    server: c63s2.portablesubmarines.com
-    port: 5662
-    cipher: aes-256-gcm
-    password: wtKbazPTkRZFn5kX
-  - name: 荷兰325
-    type: vmess
-    server: c32s5.portablesubmarines.com
-    port: 5755
-    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
-    alterId: 0
-    cipher: auto
-    tls: false
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qJHmudCfwVqVt8M5g3JHxeI_IKUUIrfb0PIVFG_NJU4
+      short-id: 60e0c27fcabb
+  - name: US
+    type: vless
+    server: 157.254.223.44
+    port: 18959
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+    servername: itunes.apple.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+  - name: 🇵🇱 波兰 | POL
+    type: trojan
+    server: outgoing-ladybird.rooster465.autos
+    port: 443
+    password: IL37892054
+    sni: outgoing-ladybird.rooster465.autos
     skip-cert-verify: false
-  - name: 🇺🇸US_25 | ⬇️ 2.9MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    sni: 45.221.98.14
-    alpn:
-      - h2
-    skip-cert-verify: true
     tls: true
-    udp: false
-  - name: 🇺🇸US_8 | ⬇️ 1.2MB/s
-    type: vmess
-    server: 216.106.185.141
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 🇵🇱 波兰 | POL_1
+    type: trojan
+    server: just-alpaca.rooster465.autos
+    port: 443
+    password: IL37892054
+    sni: just-alpaca.rooster465.autos
     skip-cert-verify: false
-  - name: 🇺🇸US_10 | ⬇️ 2.2MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
+    tls: true
+  - name: 02(TG:@tccjd)_2
+    type: trojan
+    server: www.multiplydose.com
+    port: 443
+    password: humanity
+    sni: www.multiplydose.com
     skip-cert-verify: true
     tls: true
-    udp: false
+    ws-opts:
+      path: /assignment
+  - name: 美国(TG:@tccjd)_35
+    type: trojan
+    server: 152.53.200.167
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: jflsjlaf.pages.dev
   - name: " 美國（2026.3.18更新）"
     type: trojan
     server: 172.66.44.230
@@ -1169,14 +1064,6 @@ proxies:
       path: /tro8sFW1S91B6sZrM1?ed=2560
       headers:
         Host: Koma-YT.PAGeS.Dev
-  - name: 🇺🇸US_27 | ⬇️ 1.4MB/s
-    type: anytls
-    server: 45.221.98.14
-    port: 59901
-    password: dongtaiwang.com
-    skip-cert-verify: true
-    tls: true
-    udp: false
   - name: OTHER
     type: trojan
     server: 152.53.200.167
@@ -1187,22 +1074,6 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: 荷兰635
-    type: vmess
-    server: c63s5.portablesubmarines.com
-    port: 5662
-    uuid: 7ea5536b-73ac-478a-9729-fc61222ca6f8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇺🇸US_4 | ⬇️ 4.7MB/s
-    type: hysteria2
-    server: 38.165.21.126
-    port: 29794
-    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
-    sni: bing.com
-    skip-cert-verify: true
   - name: 🇳🇱NL_2 | ⬇️ 2.1MB/s
     type: trojan
     server: apt-magpie.rooster465.autos
@@ -1257,26 +1128,20 @@ proxies:
     sni: upright-rhino.rooster465.autos
     skip-cert-verify: false
     tls: true
-  - name: 🇺🇸US_6|1.6MB/s
-    type: vless
-    server: 157.254.223.44
-    port: 18959
-    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-    servername: itunes.apple.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-      short-id: d557c6895d014075
-  - name: 🇭🇰HK_5 | ⬇️ 8.1MB/s
-    type: anytls
-    server: hkaws.ccwink.photos
-    port: 60001
-    password: fe0fda62-79ff-467e-bef4-983322c1d21b
-    sni: hkaws.ccwink.photos
+  - name: 🇺🇸US_2 | ⬇️ 6.2MB/s
+    type: hysteria2
+    server: 38.165.21.126
+    port: 29794
+    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    sni: bing.com
     skip-cert-verify: true
-    tls: true
-    udp: false
+  - name: 🇺🇸US_4 | ⬇️ 4.7MB/s
+    type: hysteria2
+    server: 38.165.21.126
+    port: 29794
+    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    sni: bing.com
+    skip-cert-verify: true
   - name: 🇳🇱NL_8 | ⬇️ 3.6MB/s
     type: hysteria2
     server: 144.31.224.14
@@ -1284,29 +1149,6 @@ proxies:
     password: 123456789StrongPass
     sni: www.cloudflare.com
     skip-cert-verify: true
-  - name: 🇸🇪SE_1|2.2MB/s
-    type: vless
-    server: sub.himikvpn.online
-    port: 8443
-    uuid: f7f18360-fbdf-45b5-93f4-4e47a29e595b
-    servername: pimg.mycdn.me
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: qJHmudCfwVqVt8M5g3JHxeI_IKUUIrfb0PIVFG_NJU4
-      short-id: 60e0c27fcabb
-  - name: US
-    type: vless
-    server: 157.254.223.44
-    port: 18959
-    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-    servername: itunes.apple.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-      short-id: d557c6895d014075
   - name: 🇳🇱NL_21 | ⬇️ 6.6MB/s
     type: hysteria2
     server: 144.31.224.14
@@ -1314,15 +1156,6 @@ proxies:
     password: 123456789StrongPass
     sni: www.cloudflare.com
     skip-cert-verify: true
-  - name: 🇺🇸US_9 | ⬇️ 8.9MB/s
-    type: anytls
-    server: hkaws.ccwink.photos
-    port: 30002
-    password: fe0fda62-79ff-467e-bef4-983322c1d21b
-    sni: hkaws.ccwink.photos
-    skip-cert-verify: true
-    tls: true
-    udp: false
   - name: 🇳🇱NL_3 | ⬇️ 1.7MB/s
     type: tuic
     server: ip1.758733.xyz
@@ -1335,29 +1168,159 @@ proxies:
     congestion-controller: bbr
     skip-cert-verify: false
     disable-sni: false
-  - name: 🇺🇸 ShatakVPN 569904
-    type: vless
-    server: 104.18.32.47
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s2.nakosgol.com
+  - name: 🇭🇰HK_8 | ⬇️ 6.1MB/s
+    type: anytls
+    server: hkaws.ccwink.photos
+    port: 60005
+    password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+    sni: hkaws.ccwink.photos
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇲🇴MO_1 | ⬇️ 4.8MB/s
+    type: anytls
+    server: hkaws.ccwink.photos
+    port: 60006
+    password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
+    sni: hkaws.ccwink.photos
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_332 | ⬇️ 2.1MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    alpn:
+      - h2
+    skip-cert-verify: true
+    tls: true
+    udp: false
+    client-fingerprint: chrome
+  - name: 🇺🇸US_37 | ⬇️ 4.1MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    sni: 45.221.98.14
+    alpn:
+      - h2
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_5 | ⬇️ 2.8MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    alpn:
+      - h2
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_12 | ⬇️ 5.0MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    sni: 45.221.98.14
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_2 | ⬇️ 2.9MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    alpn:
+      - h2
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸美国-10
+    type: anytls
+    server: 155.94.145.166
+    port: 8443
+    password: tzjz55
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_25 | ⬇️ 2.9MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    sni: 45.221.98.14
+    alpn:
+      - h2
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_10 | ⬇️ 2.2MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_27 | ⬇️ 1.4MB/s
+    type: anytls
+    server: 45.221.98.14
+    port: 59901
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇭🇰HK_5 | ⬇️ 8.1MB/s
+    type: anytls
+    server: hkaws.ccwink.photos
+    port: 60001
+    password: fe0fda62-79ff-467e-bef4-983322c1d21b
+    sni: hkaws.ccwink.photos
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇺🇸US_9 | ⬇️ 8.9MB/s
+    type: anytls
+    server: hkaws.ccwink.photos
+    port: 30002
+    password: fe0fda62-79ff-467e-bef4-983322c1d21b
+    sni: hkaws.ccwink.photos
+    skip-cert-verify: true
+    tls: true
+    udp: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -1365,45 +1328,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -1411,11 +1356,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -1423,68 +1369,80 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -1492,45 +1450,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -1538,11 +1478,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -1550,61 +1491,52 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1614,10 +1546,31 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -1625,45 +1578,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -1671,11 +1606,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -1683,70 +1619,82 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -1754,45 +1702,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -1800,11 +1730,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -1812,70 +1743,82 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -1883,45 +1826,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -1929,11 +1854,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -1941,70 +1867,82 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -2012,45 +1950,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -2058,11 +1978,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -2070,61 +1991,52 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2147,10 +2059,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇵🇭 菲律宾 | PHL
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 日本634
+      - 日本324
+      - 美国323
+      - 美国633
+      - 荷兰325
+      - 🇺🇸US_8 | ⬇️ 1.2MB/s
+      - 荷兰635
       - 🇯🇵 日本 | JPN
-      - 🇺🇸 美国 | USA
+      - 🇩🇪 德国 | DEU
+      - 🇯🇵 日本 | JPN_1
+      - 🇳🇬 尼日利亚 | NGA
       - 🇸🇬 新加坡 | SGP
+      - 美国321
+      - 美国322
+      - 美国631
+      - 美国632
+      - 🇺🇸 美国 | USA
       - 🇸🇬 新加坡 | SGP_1
       - 🇸🇬 新加坡 | SGP_2
       - 🇸🇬 新加坡 | SGP_3
@@ -2158,45 +2091,27 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP_5
       - 🇸🇬 新加坡 | SGP_6
       - 🇸🇬 新加坡 | SGP_7
-      - 🇩🇪 德国 | DEU
-      - 🇺🇸 美国 | USA_1
-      - 🇵🇱 波兰 | POL
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
-      - 🇵🇱 波兰 | POL_1
       - 🇸🇬 新加坡 | SGP_8
-      - 🇦🇹 奥地利 | AUT
-      - 🇳🇬 尼日利亚 | NGA
+      - 🇺🇸 美国 | USA_1
+      - 🇯🇵 日本 | JPN_2
       - 🇸🇬 新加坡 | SGP_9
+      - 🇦🇹 奥地利 | AUT
       - 🇺🇸 美国 | USA_2
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 美国(TG:@tccjd)
-      - 新加坡(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
-      - 日本(TG:@tccjd)
-      - 台湾(TG:@tccjd)
+      - 新加坡(TG:@tccjd)
       - 美国(TG:@tccjd)_8
       - 美国(TG:@tccjd)_9
       - 美国(TG:@tccjd)_10
@@ -2204,11 +2119,12 @@ proxy-groups:
       - 美国(TG:@tccjd)_12
       - 美国(TG:@tccjd)_13
       - 美国(TG:@tccjd)_14
+      - 日本(TG:@tccjd)
+      - 台湾(TG:@tccjd)
       - 美国(TG:@tccjd)_15
       - 美国(TG:@tccjd)_16
       - 美国(TG:@tccjd)_17
       - 美国(TG:@tccjd)_18
-      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_19
       - 美国(TG:@tccjd)_20
       - 美国(TG:@tccjd)_21
@@ -2216,61 +2132,52 @@ proxy-groups:
       - 美国(TG:@tccjd)_23
       - 美国(TG:@tccjd)_24
       - 美国(TG:@tccjd)_25
+      - 伊朗(TG:@tccjd)
       - 美国(TG:@tccjd)_26
       - 美国(TG:@tccjd)_27
       - 美国(TG:@tccjd)_28
       - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_30
       - 美国(TG:@tccjd)_31
-      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_32
+      - 新加坡(TG:@tccjd)_1
       - 美国(TG:@tccjd)_33
+      - 美国(TG:@tccjd)_34
       - 日本(TG:@tccjd)_1
       - 日本(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_34
+      - 🇺🇸US_6|1.6MB/s
+      - 🇸🇪SE_1|2.2MB/s
+      - US
+      - 🇵🇱 波兰 | POL
+      - 🇵🇱 波兰 | POL_1
+      - 02(TG:@tccjd)_2
       - 美国(TG:@tccjd)_35
-      - 日本634
-      - 日本324
-      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
-      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
-      - 美国323
-      - 🇺🇸US_332 | ⬇️ 2.1MB/s
-      - 美国321
-      - 美国633
-      - 美国322
-      - 🇺🇸US_37 | ⬇️ 4.1MB/s
-      - 🇺🇸US_5 | ⬇️ 2.8MB/s
-      - 🇺🇸US_12 | ⬇️ 5.0MB/s
-      - 🇺🇸US_2 | ⬇️ 2.9MB/s
-      - 🇺🇸US_2 | ⬇️ 6.2MB/s
-      - 美国631
-      - 🇺🇸美国-10
-      - 美国632
-      - 荷兰325
-      - 🇺🇸US_25 | ⬇️ 2.9MB/s
-      - 🇺🇸US_8 | ⬇️ 1.2MB/s
-      - 🇺🇸US_10 | ⬇️ 2.2MB/s
       - " 美國（2026.3.18更新）"
-      - 🇺🇸US_27 | ⬇️ 1.4MB/s
       - OTHER
-      - 荷兰635
-      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_2 | ⬇️ 2.1MB/s
       - 🇵🇱PL_1 | ⬇️ 3.0MB/s
       - JP
       - 🇵🇱PL_2 | ⬇️ 3.1MB/s
       - Other_1 | ⬇️ 4.3MB/s
       - 🇳🇱NL_3 | ⬇️ 2.9MB/s
-      - 🇺🇸US_6|1.6MB/s
-      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_2 | ⬇️ 6.2MB/s
+      - 🇺🇸US_4 | ⬇️ 4.7MB/s
       - 🇳🇱NL_8 | ⬇️ 3.6MB/s
-      - 🇸🇪SE_1|2.2MB/s
-      - US
       - 🇳🇱NL_21 | ⬇️ 6.6MB/s
-      - 🇺🇸US_9 | ⬇️ 8.9MB/s
       - 🇳🇱NL_3 | ⬇️ 1.7MB/s
-      - 🇺🇸 ShatakVPN 569904
+      - 🇭🇰HK_8 | ⬇️ 6.1MB/s
+      - 🇲🇴MO_1 | ⬇️ 4.8MB/s
+      - 🇺🇸US_332 | ⬇️ 2.1MB/s
+      - 🇺🇸US_37 | ⬇️ 4.1MB/s
+      - 🇺🇸US_5 | ⬇️ 2.8MB/s
+      - 🇺🇸US_12 | ⬇️ 5.0MB/s
+      - 🇺🇸US_2 | ⬇️ 2.9MB/s
+      - 🇺🇸美国-10
+      - 🇺🇸US_25 | ⬇️ 2.9MB/s
+      - 🇺🇸US_10 | ⬇️ 2.2MB/s
+      - 🇺🇸US_27 | ⬇️ 1.4MB/s
+      - 🇭🇰HK_5 | ⬇️ 8.1MB/s
+      - 🇺🇸US_9 | ⬇️ 8.9MB/s
 rule-providers:
   LocalAreaNetwork:
     type: http
