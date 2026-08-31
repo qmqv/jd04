@@ -24,14 +24,6 @@ dns:
       - https://1.1.1.1/dns-query#🚀 节点选择
       - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
-  - name: 🇸🇬 新加坡 | SGP
-    type: hysteria2
-    server: 47.241.108.227
-    port: 50160
-    password: 436114b5f36b2e704bdfa0927d57b6cd
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
   - name: 01(TG:@tccjd)
     type: ss
     server: cdn-2d12.giftcardbazarbot.com
@@ -57,30 +49,6 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: 01(TG:@tccjd)_1
-    type: trojan
-    server: 104.18.9.83
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: 02(TG:@tccjd)_1
-    type: trojan
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: epge.muarua.filegear-sg.me
-    udp: true
-  - name: 01(TG:@tccjd)_2
     type: vless
     server: mktossl.com
     port: 8443
@@ -93,7 +61,7 @@ proxies:
       path: /
     skip-cert-verify: true
     udp: true
-  - name: 01(TG:@tccjd)_3
+  - name: 01(TG:@tccjd)_2
     type: vless
     server: stream.tonblack.app
     port: 2053
@@ -108,7 +76,7 @@ proxies:
         Host: stream.tonblack.app
     skip-cert-verify: true
     udp: true
-  - name: 01(TG:@tccjd)_4
+  - name: 01(TG:@tccjd)_3
     type: vless
     server: 168.222.194.138
     port: 9880
@@ -124,7 +92,7 @@ proxies:
       short-id: aabbccdd
     skip-cert-verify: true
     udp: true
-  - name: 02(TG:@tccjd)_2
+  - name: 02(TG:@tccjd)_1
     type: vless
     server: 168.222.194.138
     port: 9880
@@ -171,26 +139,6 @@ proxies:
     udp: true
   - name: 美国(TG:@tccjd)
     type: vless
-    server: 80.76.44.181
-    port: 443
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-    network: http
-    servername: note.savesafe.run
-    tls: true
-    client-fingerprint: firefox
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - net.savesafe.run
-    reality-opts:
-      public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-      short-id: 812609fa663c57fb
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_1
-    type: vless
     server: 159.200.230.117
     port: 443
     uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
@@ -202,27 +150,7 @@ proxies:
       public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_2
-    type: vless
-    server: 80.76.44.182
-    port: 443
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-    network: http
-    servername: note.savesafe.run
-    tls: true
-    client-fingerprint: safari
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - net.savesafe.run
-    reality-opts:
-      public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-      short-id: 812609fa663c57fb
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_3
+  - name: 美国(TG:@tccjd)_1
     type: vless
     server: 45.95.96.225
     port: 443
@@ -236,47 +164,7 @@ proxies:
       short-id: 4fa44664f6a566d3
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_4
-    type: vless
-    server: 80.76.44.135
-    port: 443
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-    network: http
-    servername: note.savesafe.run
-    tls: true
-    client-fingerprint: qq
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - net.savesafe.run
-    reality-opts:
-      public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-      short-id: 812609fa663c57fb
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_5
-    type: vless
-    server: 80.76.44.182
-    port: 443
-    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-    network: http
-    servername: note.savesafe.run
-    tls: true
-    client-fingerprint: firefox
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - net.savesafe.run
-    reality-opts:
-      public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-      short-id: 812609fa663c57fb
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_6
+  - name: 美国(TG:@tccjd)_2
     type: vless
     server: 31.76.69.40
     port: 443
@@ -304,7 +192,7 @@ proxies:
       short-id: a1b2c3d4
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_7
+  - name: 美国(TG:@tccjd)_3
     type: vless
     server: 31.77.183.88
     port: 5000
@@ -318,15 +206,7 @@ proxies:
       short-id: a1b2c3d4
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_8
-    type: hysteria2
-    server: 31.76.4.128
-    port: 5002
-    password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-    sni: fi.aeternavpn.space
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_9
+  - name: 美国(TG:@tccjd)_4
     type: vless
     server: 31.77.183.88
     port: 5001
@@ -381,14 +261,6 @@ proxies:
       short-id: 4fa44664f6a566d3
     skip-cert-verify: true
     udp: true
-  - name: 新加坡 01
-    type: hysteria2
-    server: 138.2.73.238
-    port: 50160
-    password: f87376e17da040ed04c9665ce8972930
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
   - name: 法国 08
     type: vless
     server: 45.95.96.225
@@ -401,30 +273,6 @@ proxies:
     reality-opts:
       public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
       short-id: 4fa44664f6a566d3
-    skip-cert-verify: true
-    udp: true
-  - name: 法国 02
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: speedtest.tinkoff.ru
-    skip-cert-verify: true
-    udp: true
-  - name: 瑞士 01
-    type: hysteria2
-    server: 140.238.213.114
-    port: 50160
-    password: 84a506ca5aca505696a454d828420b3f
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-  - name: 瑞士 02
-    type: hysteria2
-    server: 140.238.213.114
-    port: 50160
-    password: 84a506ca5aca505696a454d828420b3f
-    sni: www.bing.com
     skip-cert-verify: true
     udp: true
   - name: 美国 26
@@ -452,14 +300,6 @@ proxies:
     reality-opts:
       public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
       short-id: 4a46213c935e2ee4
-    skip-cert-verify: true
-    udp: true
-  - name: 新加坡 02
-    type: hysteria2
-    server: 31.76.4.128
-    port: 5002
-    password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-    sni: fi.aeternavpn.space
     skip-cert-verify: true
     udp: true
   - name: 法国 07
@@ -490,87 +330,159 @@ proxies:
       short-id: 4c517b9e
     skip-cert-verify: true
     udp: true
+  - name: 01(TG:@tccjd)_4
+    type: trojan
+    server: 104.18.9.83
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+    udp: true
+  - name: 02(TG:@tccjd)_2
+    type: trojan
+    server: 167.68.4.199
+    port: 2053
+    password: Aimer
+    sni: epge.muarua.filegear-sg.me
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: epge.muarua.filegear-sg.me
+    udp: true
+  - name: 🇸🇬 新加坡 | SGP
+    type: hysteria2
+    server: 47.241.108.227
+    port: 50160
+    password: 436114b5f36b2e704bdfa0927d57b6cd
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: 美国(TG:@tccjd)_5
+    type: hysteria2
+    server: 31.76.4.128
+    port: 5002
+    password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+    sni: fi.aeternavpn.space
+    skip-cert-verify: true
+    udp: true
+  - name: 新加坡 01
+    type: hysteria2
+    server: 138.2.73.238
+    port: 50160
+    password: f87376e17da040ed04c9665ce8972930
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: 法国 02
+    type: hysteria2
+    server: 62.210.7.139
+    port: 60111
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: speedtest.tinkoff.ru
+    skip-cert-verify: true
+    udp: true
+  - name: 瑞士 01
+    type: hysteria2
+    server: 140.238.213.114
+    port: 50160
+    password: 84a506ca5aca505696a454d828420b3f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: 瑞士 02
+    type: hysteria2
+    server: 140.238.213.114
+    port: 50160
+    password: 84a506ca5aca505696a454d828420b3f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: 新加坡 02
+    type: hysteria2
+    server: 31.76.4.128
+    port: 5002
+    password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+    sni: fi.aeternavpn.space
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -580,165 +492,149 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -761,42 +657,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 | SGP
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
       - 03(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 01(TG:@tccjd)_2
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_2
+      - 02(TG:@tccjd)_1
       - 法国(TG:@tccjd)
       - 俄罗斯 (TG:@tccjd)
       - 美国(TG:@tccjd)
       - 美国(TG:@tccjd)_1
       - 美国(TG:@tccjd)_2
+      - 英国(TG:@tccjd)
       - 美国(TG:@tccjd)_3
       - 美国(TG:@tccjd)_4
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
       - 塞舌尔 01
       - 瑞士 03
       - 法国 06
-      - 新加坡 01
       - 法国 08
+      - 美国 26
+      - 芬兰 01
+      - 法国 07
+      - 香港 01
+      - 01(TG:@tccjd)_4
+      - 02(TG:@tccjd)_2
+      - 🇸🇬 新加坡 | SGP
+      - 美国(TG:@tccjd)_5
+      - 新加坡 01
       - 法国 02
       - 瑞士 01
       - 瑞士 02
-      - 美国 26
-      - 芬兰 01
       - 新加坡 02
-      - 法国 07
-      - 香港 01
 rule-providers:
   LocalAreaNetwork:
     type: http
